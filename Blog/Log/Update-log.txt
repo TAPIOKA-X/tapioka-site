@@ -1,1 +1,9 @@
-not log
+The changes, additions, and modifications made in the update are listed in this TXT file.
+
+⬇Changes in Version 23.4
+① Added update log, Roblox game, and Grace's blog.
+
+⬇Changes in Version 23.6
+① Added Discord server invite link.
+
+end
