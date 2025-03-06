@@ -2,11 +2,10 @@
  text-align:center;
 }
 
-.Puple-Text{
+.Puple-Text-BackGround{
  background-color: #8a2be2;
 }
 
-a {
- color: #ff0000;
- text-decoration: none;
+.Red-Text{
+  color: #ff0000;
 }
