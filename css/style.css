@@ -1,3 +1,9 @@
+/*基本スタイル*/
+boby {
+ backgroud-color: #B1B3B6;
+}
+
+/*ここから拡張スタイル*/
 .中央揃え{
  text-align:center;
 }
