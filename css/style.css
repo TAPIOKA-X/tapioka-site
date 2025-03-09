@@ -3,6 +3,10 @@
  text-align:center;
 }
 
+p {
+ font-weigth: 935;
+}
+
 .Puple-Text-BackGround{
  background-color: #8a2be2;
 }
@@ -35,4 +39,5 @@
   color: #ffffff;
   margin-right: 35px;
   font-size: 2px;
+  font-weigth: 935;
 }
