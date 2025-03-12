@@ -4,11 +4,17 @@
 }
 
 .Puple-Text-BackGround{
+ heigth: 42px;
+ padding: 5px; 
  background-color: #8a2be2;
+ border-radius: 7px;
 }
 
 .Gray-Text-BackGround{
- background-color: #c0c0c0;
+ heigth: 4px;
+ padding: 25px; 
+ background-color: gray;
+ border-radius: 7px;
 }
 
 .Red-Text{
