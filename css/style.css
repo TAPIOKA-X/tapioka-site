@@ -19,6 +19,7 @@
 
 .Red-Text{
   color: #ff0000;
+  text-decoration: none;
 }
 /*メニューバーのCSS*/
 .Menu-Link-Style{
