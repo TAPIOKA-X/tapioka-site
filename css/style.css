@@ -14,11 +14,11 @@
 .Red-Text{
   color: #ff0000;
 }
-
 /*メニューバーのCSS*/
 .Menu-Link-Style{
  heigth: 100px;
  padding: 5px;
  background-color: #000000;
  text-decoration: none;
+ border-radius: 10px;
 }
