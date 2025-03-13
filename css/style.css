@@ -21,13 +21,6 @@
   color: #ff0000;
   text-decoration: none;
 }
-
-.Button-Style-Pink{
- background-color: pink;
- border-radius: 5px;
- font-size: 6px;
-}
-
 /*メニューバーのCSS*/
 .Menu-Link-Style{
  heigth: 100px;
