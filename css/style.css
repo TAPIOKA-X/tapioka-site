@@ -9,6 +9,15 @@
   color: white;
 }
 
+.Fake-Button{
+  haight: 7px;
+  padding: 5px; 
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+  
+
 /*赤色のテキスト*/
 .Red-Text{
   color: red;
