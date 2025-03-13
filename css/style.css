@@ -2,10 +2,9 @@
 .Center-alignment{
   text-align: center;
 }
-
-/*タイトルの装飾*/
-.Title-Style{
-  background-color: black;
+/*バックグラウンドの色 黒*/
+.BackGround-Black{
+  background: black;
   border-radius: 5px;
   color: white;
 }
