@@ -5,12 +5,8 @@
 
 /*タイトルの装飾*/
 .Title-Style{
-  width: 50px;
-  height: 50px;
-  padding: 100px;
   background-color: black;
   color: white;
-  font-size: 10px;
 }
 
 /*赤色のテキスト*/
