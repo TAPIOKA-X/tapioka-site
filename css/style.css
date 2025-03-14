@@ -17,25 +17,7 @@
   border-radius: 5px;
   color: white;
   text-decoration: none;
-}
-
-/*ボタンのスタイルだな、うん*/
-.Button-Style-v1{
-  background-color: pink;
-  border-radius: 8px;
-  font-size: 20px;
-}
-
-/*ボタンみたいに見せるやつ(語彙力皆無*/
-.Fake-Button{
-  haight: 7px;
-  padding: 5px; 
-  border-radius: 7px;
-  background-color: black;
-  color: white;
-  text-decoration: none;
-}
-  
+}  
 
 /*赤色のテキスト*/
 .Red-Text{
