@@ -14,6 +14,12 @@
   color: white;
 }
 
+.button-style{
+  background-color: pink;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
 .Link-Style{
   color: red;
   text-decoration: none;
