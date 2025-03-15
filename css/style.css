@@ -18,21 +18,3 @@
   color: white;
   text-decoration: none;
 }  
-
-/*赤色のテキスト*/
-.Red-Text{
-  color: red;
-  text-decoration: none;
-}
-
-/*灰色のテキスト*/
-.Gray-Text{
-  color: gray;
-  text-decoration: none;
-}
-
-/*白色のテキスト*/
-.White-Text{
-  color: white;
-  text-decoration: none;
-}
