@@ -2,7 +2,12 @@
 
 <head>
 <link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css"></link>
-  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+<link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png"></link>
+
 <meta name= "viewport" content= "width=device-width">
 <meta charset= "Shift_JIS">
 <title>揺るぎない魂 引き換えコード</title>
