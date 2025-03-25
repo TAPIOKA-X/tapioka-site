@@ -34,3 +34,8 @@
   border: solid;
   border-radius: 7px;
 }
+
+.Red-Link-Style{
+  color: red;
+  test-decoration: none;
+}
