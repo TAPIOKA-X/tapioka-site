@@ -1,4 +1,4 @@
-.中央揃え{
+.center{
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
   color: white;
 }
 
-.button-style{
+.Button-Style{
   background-color: pink;
   border-radius: 10px;
   font-size: 18px;
@@ -30,12 +30,12 @@
   text-decoration: none;
 }
 
-.枠線{
+.Border{
   border: solid;
   border-radius: 7px;
 }
 
 .Red-Link-Style{
   color: red;
-  test-decoration: none;
+  text-decoration: none;
 }
