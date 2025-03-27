@@ -7,13 +7,18 @@
   font-weight: 400;
   font-style: normal;
 
-.Link-Style{
+.Link-Style-Button{
   width: 55px;
   height: 20px;
   padding: 4px;
   border-radius: 10px;
   background-color: black;
   color: white;
+  text-decoration: none;
+}
+
+.Link-Style{
+  color: red;
   text-decoration: none;
 }
 
