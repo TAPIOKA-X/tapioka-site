@@ -1,4 +1,4 @@
-Dark-Mode{
+.Dark-Mode{
   background-color: black;
 }
 
@@ -31,10 +31,4 @@ Dark-Mode{
   color: white;
   font-size: 10px;
   border-radius: 9px;
-}
-
-.BackGround-Black{
- background-color: black;
- color: white;
- border-radius: 10px;
 }
