@@ -6,19 +6,6 @@
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.BackGround-Black{
-  background-color: black;
-  border-radius: 10px;
-  color: white;
-}
-
-.Button-Style{
-  background-color: pink;
-  border-radius: 10px;
-  font-size: 18px;
-}
 
 .Link-Style{
   width: 55px;
@@ -30,12 +17,9 @@
   text-decoration: none;
 }
 
-.Border{
-  border: solid;
-  border-radius: 7px;
-}
-
-.Red-Link-Style{
-  color: red;
-  text-decoration: none;
+.Button-Style{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  border-radius: 9px;
 }
