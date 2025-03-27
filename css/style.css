@@ -23,7 +23,8 @@
 }
 
 .Button-Style{
-  background-color: bpink;
+  background-color: black;
+  color: white;
   font-size: 10px;
   border-radius: 9px;
 }
