@@ -32,7 +32,7 @@
 /*BackGround-Color of Style*/
 
 .BackGround-Black{
-  background-color: black;
-  color: white;
-  border-radius: 10px;
+  border-radius: 10px;{
+  background: linear-gradient(black,gray){
+  color: white;{
 }
