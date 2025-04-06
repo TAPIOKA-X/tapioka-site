@@ -24,6 +24,8 @@
 }
 
 .Button-Style{
+ text-align: center;
+  
   border-radius: 10px;
   width: 115px;
   height: 55px;
