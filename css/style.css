@@ -28,10 +28,13 @@
 }
 
 .Button-Style{
-  background-color: black;
+  border-radius: 10px;
+  width: 115px;
+  height: 55px;
+  padding: 4px;
+  background: linear-gradient(black,gray);
   color: white;
-  font-size: 18px;
-  border-radius: 9px;
+  font-size: 16px;
  
   font-family: "DotGothic16", sans-serif;
   font-weight: 400;
