@@ -13,7 +13,7 @@
   height: 20px;
   padding: 4px;
   border-radius: 10px;
-  background-color: black;
+  background: linear-gradient(black,gray);
   color: white;
   text-decoration: none;
 }
