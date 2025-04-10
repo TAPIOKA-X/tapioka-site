@@ -38,9 +38,19 @@
 }
 
 /*BackGround-Color of Style*/
-
 .BackGround-Black{
   border-radius: 10px;
   background: linear-gradient(black,gray);
   color: white;
 }
+
+/*etc..*/
+.Border{
+  border: solid;
+  border-radius: 12px;
+}
+
+.Opacity{
+  opacity: 0.5;
+}
+
