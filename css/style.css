@@ -34,3 +34,9 @@
  border: solid;
  border-radius: 12px;
 }
+
+.Normal-Link-Style{
+ text-decaration: none;
+ color: red;
+ font-weigth: 900;
+}
