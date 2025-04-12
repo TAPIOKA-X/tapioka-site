@@ -26,5 +26,11 @@
 
 .BackGround-Black-Gradation{
  background: linear-gradient(gray,black);
+ border-radius: 12px;
  color: white;
+}
+
+.Border{
+ border: solid;
+ border-radius: 12px;
 }
