@@ -45,6 +45,20 @@
   font-size: 12px;
 }
 
+.Button-Style-Mouse:hover{
+  text-align: center;
+  
+  border-radius: 10px;
+  padding: 4px;
+  background: linear-gradient(gray,black);
+  color: white;
+ 
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
 /*BackGround-Color of Style*/
 .BackGround-Black{
   border-radius: 10px;
