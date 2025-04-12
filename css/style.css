@@ -14,6 +14,10 @@
   
   font-size: 19px;
   color: white;
+ 
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .Button-Style-Mouse:hover{
@@ -22,6 +26,10 @@
   
   font-size: 19px;
   color: white;
+ 
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .BackGround-Black-Gradation{
