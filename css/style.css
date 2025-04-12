@@ -40,3 +40,9 @@
  color: red;
  font-weigth: 900;
 }
+
+.Normal-Link-Style-Mouse:hover{
+ text-decaration: none;
+ color: darkred;
+ font-weigth: 900;
+}
