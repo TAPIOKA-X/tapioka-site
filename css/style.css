@@ -1,82 +1,30 @@
 .Center{
-  text-align: center;
+ text-align: center;
 }
 
-.dotgothic16-regular {
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.Link-Style-Button{
-  width: 55px;
-  height: 20px;
-  padding: 4px;
-  border-radius: 10px;
-  background: linear-gradient(black,gray);
-  color: white;
-  text-decoration: none;
-}
-
-.Link-Style{
-  color: red;
-  text-decoration: none;
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.UpdateLogLink-Style{
- color: red;
- text-decoration: none;
+.Dot-Font{
+ font-family: "DotGothic16", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .Button-Style{
-  text-align: center;
+  background: linear-gradient(gray,darkgray,black);
+  border-radius: 12px;
   
-  border-radius: 10px;
-  padding: 4px;
-  background: linear-gradient(black,gray);
+  font-size: 19px;
   color: white;
- 
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
 }
 
 .Button-Style-Mouse:hover{
-  text-align: center;
-  
-  border-radius: 10px;
-  padding: 4px;
-  background: linear-gradient(gray,black);
-  color: white;
- 
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
-}
-
-/*BackGround-Color of Style*/
-.BackGround-Black{
-  border-radius: 10px;
-  background: linear-gradient(black,gray);
-  color: white;
-}
-
-/*etc..*/
-.Border{
-  border: solid;
+  background: linear-gradient(black,darkgray,gray);
   border-radius: 12px;
+  
+  font-size: 19px;
+  color: white;
 }
 
-.Opacity{
-  opacity: 0.5;
+.BackGround-Black-Gradation{
+ background: linear-gradient(gray,black);
+ color: white;
 }
-
-.B-Style-900{
-  font-weight: 900;
-}
-
