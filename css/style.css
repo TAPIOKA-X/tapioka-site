@@ -22,7 +22,7 @@
 }
 
 .Button-Style-Mouse:hover{
-  background: linear-gradient(black,darkgray,gray);
+  background: linear-gradient(dimgray,gray,black);
   border-radius: 12px;
   
   font-size: 19px;
