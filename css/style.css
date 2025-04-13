@@ -19,7 +19,7 @@
   font-style: normal;
 }
 
-.Button-Style-Mouse:hover{
+.Button-Style:hover{
   background: linear-gradient(dimgray,gray,black);
   border-radius: 12px;
   color: white;
