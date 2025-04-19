@@ -11,6 +11,7 @@
 
 .Menu-Title-Style{
 list-style: none;
+width: 50px;
 background: linear-gradient(gray,darkgray,black);
 border-radius: 9px;
 color: white;
@@ -18,6 +19,7 @@ color: white;
 
 .Menu-Title-Style:hover{
 list-style: none;
+width: 50px;
 background: linear-gradient(dimgray,gray,black);
 border-radius: 9px;
 color: white;
