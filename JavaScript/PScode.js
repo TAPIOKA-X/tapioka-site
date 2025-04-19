@@ -1,4 +1,4 @@
-var code = document.getElementById("code");
+var code = document.getElementById("PScode");
 
 function Code(){
  alert("更新しますか？");
