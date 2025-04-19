@@ -12,7 +12,7 @@
 .Menu-Title-Style{
 text-align: center;
 list-style: none;
-width: 200px;
+padding: 4px;
 background: linear-gradient(gray,darkgray,black);
 border-radius: 9px;
 color: white;
@@ -21,7 +21,7 @@ color: white;
 .Menu-Title-Style:hover{
 text-align: center;
 list-style: none;
-width: 200px;
+padding: 4px;
 background: linear-gradient(dimgray,gray,black);
 border-radius: 9px;
 color: white;
