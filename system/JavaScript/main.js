@@ -16,7 +16,9 @@ function CodeButton(){
 }
 
 //Error404
-function Error404(){
+var Redirect = document.getElemntById("Redirect");
+
+Redirect function(){
  alert(Error404);
  location.href= "https://tapioka-site.f5.si/";
 }
