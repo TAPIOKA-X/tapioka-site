@@ -14,11 +14,3 @@ function CodeButton(){
  alert("更新しますか？");
  Code.innerHTML = "Pls wait..";
 }
-
-//Error404
-var Redirect = document.getElemntById("Redirect");
-
-Redirect function(){
- alert(Error404);
- location.href= "https://tapioka-site.f5.si/";
-}
