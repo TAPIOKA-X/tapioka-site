@@ -12,12 +12,14 @@
 .Menu-Title-Style{
 list-style: none;
 background: linear-gradient(gray,darkgray,black);
+border-radius: 9px;
 color: white;
 }
 
 .Menu-Title-Style:hover{
 list-style: none;
 background: linear-gradient(dimgray,gray,black);
+border-radius: 9px;
 color: white;
 }
 
