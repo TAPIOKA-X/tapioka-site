@@ -10,5 +10,5 @@ function english(){
  USreset.innerHTML = "Unwavering Soul Reset : 150Reset";
 
  US.innerHTML = "Unwavering Soul";
- USblogMenu.innerHTML = "Open to Unwavering Soul Blog Menu";
+ USblogMenu.innerHTML = "➤ Open to Unwavering Soul Blog Menu";
 }
