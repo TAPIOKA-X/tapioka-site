@@ -19,7 +19,7 @@ function english(){
  document.title = "TAPI HomePage";
  
  English.innerHTML = "Japanese to english language button";
- SiteVersion.innerHTML = "";
+ SiteVersion.innerHTML = "<p></p>";
  
  welcome.innerHTML = "Welcome";
  USreset.innerHTML = "Unwavering Soul Reset : 150Reset";
