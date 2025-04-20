@@ -26,8 +26,8 @@ function english(){
  US.innerHTML = "Unwavering Soul";
  USblogMenu.innerHTML = "➤ Open to Unwavering Soul Blog Menu";
 
- USps.innerHTML = "Unwavering Soul Private Server Code";
- USvideo.innerHTML = "Unwavering Soul Video";
- USytb.innerHTML = "Unwavering Soul YouTuber List";
- USdiscord.innerHTML = "Unwavering Soul Discord Server / By: TAPIOKA";
+ USps.innerHTML = "➤ Unwavering Soul Private Server Code";
+ USvideo.innerHTML = "➤ Unwavering Soul Video";
+ USytb.innerHTML = "➤ Unwavering Soul YouTuber List";
+ USdiscord.innerHTML = "➤ Unwavering Soul Discord Server / By: TAPIOKA";
 }
