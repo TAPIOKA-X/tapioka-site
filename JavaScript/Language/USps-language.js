@@ -8,7 +8,7 @@ var PScodeTitle = document.getElementById("PScodeTitle");
 
 function English(){
  document.title = "Unwavering Soul Private Server Code";
- EnglishButton.innerHTML = "";
+ EnglishButton.innerHTML = "Japanese to english language button";
  
  PageTitle.innerHTML = "Unwavering Soul Private Server";
  HomeLink.innerHTML = "Home";
