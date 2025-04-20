@@ -12,11 +12,8 @@ function USytbLink(){
 }
 
 //Private Server Code Copy
-var PScode = document.getElementById("PScode");
-
 function PScodeCpoy(){
- PScode.select();
- document.execCommand('copy');
+ navigator.clipboard.writeText("aoEkHih");
 }
 
 //Alert
