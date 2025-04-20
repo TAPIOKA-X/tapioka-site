@@ -16,7 +16,7 @@ var PScode = document.getElementById("PScode");
 
 function PScodeCpoy(){
  PScode.select();
- document.exeCommand('copy');
+ document.execCommand('copy');
 }
 
 //Alert
