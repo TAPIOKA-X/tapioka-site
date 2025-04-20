@@ -16,7 +16,8 @@ var USdiscord = document.getElementById("UnwaveringSoul-Discord");
 
 //ここから、押されたとき(onclick)の操作
 function english(){
- alert("テスト段階の機能のため、バグがある可能性があります。実行しますか？");
+ document.title = "TAPI HomePage";
+ 
  English.innerHTML = "Japanese to english language button";
  SiteVersion.innerHTML = "";
  
