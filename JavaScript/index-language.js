@@ -10,6 +10,7 @@ var USblogMenu = document.getElementById("UnwaveringSoulBlogMenu");
 
 var USps = document.getElementById("UnwaveringSoul-PS");
 var USvideo = document.getElementById("UnwaveringSoul-Video");
+var USytb = document.getElementById("UnwaveringSoul-YTB");
 var USdiscord = document.getElementById("UnwaveringSoul-Discord");
 
 
@@ -27,5 +28,6 @@ function english(){
 
  USps.innerHTML = "Unwavering Soul Private Server Code";
  USvideo.innerHTML = "Unwavering Soul Video";
+ USytb.innerHTML = "Unwavering Soul YouTuber List";
  USdiscord.innerHTML = "Unwavering Soul Discord Server / By: TAPIOKA";
 }
