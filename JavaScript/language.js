@@ -1,4 +1,4 @@
-var welcome = document.getElementById("welcome");
+var welcome = document.getElementById("Welcome");
 var USreset = document.getElementById("UnwaveringSoulReset");
 
 function english(){
