@@ -11,6 +11,14 @@ function USytbLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html";
 }
 
+//Private Server Code Copy
+var PScode = document.getElementById("PScode");
+
+function PScodeCpoy(){
+ PScode.select();
+ document.exeCommand('copy');
+}
+
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
