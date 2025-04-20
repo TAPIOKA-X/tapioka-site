@@ -18,7 +18,7 @@ var USdiscord = document.getElementById("UnwaveringSoul-Discord");
 function english(){
  alert("テスト段階の機能のため、バグがある可能性があります。実行しますか？");
  English.innerHTML = "Japanese to english language button";
- SiteVersion.innerHTML = "Site Version : ????";
+ SiteVersion.innerHTML = "";
  
  welcome.innerHTML = "Welcome";
  USreset.innerHTML = "Unwavering Soul Reset : 150Reset";
