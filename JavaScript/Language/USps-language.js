@@ -1,4 +1,4 @@
-var title = document.getElemntById("Title");
+var title = document.getElementById("Title");
 var HomeLink = document.getElementById("Home");
 
 var PScode - document.getElementById("PScode");
