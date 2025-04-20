@@ -5,6 +5,7 @@ var HomeLink = document.getElementById("Home");
 
 var PScode = document.getElementById("PScode");
 var PScodeTitle = document.getElementById("PScodeTitle");
+var Button = document.getElementById("CopyButton");
 
 function English(){
  document.title = "Unwavering Soul Private Server Code";
@@ -15,4 +16,5 @@ function English(){
 
  PScode.innerHTML = "Private Server Code is 「aoEkHih」";
  PScodeTitle.innerHTML = "Private Server Code";
+ Button.innerHTML = "Copy";
 }
