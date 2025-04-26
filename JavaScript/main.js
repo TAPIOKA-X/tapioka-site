@@ -11,12 +11,12 @@ function USytbLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html";
 }
 
-function USvideLink(){
+function USvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-Video.html";
 }
 
 //Grace blog link
-function GCcideoLink(){
+function GCvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Grace/Grace-Video.html";
 }
 
