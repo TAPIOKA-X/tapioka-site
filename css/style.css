@@ -19,7 +19,7 @@
 text-align: center;
 list-style: none;
 padding: 4px;
-width: 110px;
+width: 120px;
 background: linear-gradient(gray,darkgray,black);
 border-radius: 9px;
 color: white;
@@ -29,6 +29,7 @@ color: white;
 text-align: center;
 list-style: none;
 padding: 4px;
+width: 120px;
 background: linear-gradient(dimgray,gray,black);
 border-radius: 9px;
 color: white;
