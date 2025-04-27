@@ -13,7 +13,7 @@ function USpsLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html";
 }
 
-function USytbLink(){
+function USytLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html";
 }
 
