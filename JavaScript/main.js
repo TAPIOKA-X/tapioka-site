@@ -3,6 +3,12 @@ function HomeLink(){
  location.href= "https://tapioka-site.f5.si/";
 }
 
+//Menu link
+function MenuLink(){
+  location.href= "https://tapioka-site.f5.si/Menu.html";
+}
+
+//Unwavering soul blog link
 function USpsLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html";
 }
