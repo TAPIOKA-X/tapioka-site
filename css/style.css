@@ -18,6 +18,7 @@
 text-align: center;
 list-style: none;
 padding: 4px;
+width: 100px;
 background: linear-gradient(gray,darkgray,black);
 border-radius: 9px;
 color: white;
