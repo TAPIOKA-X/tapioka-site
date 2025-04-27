@@ -17,6 +17,7 @@
 
 .Summary-Style{
 text-align: center;
+align-item: center;
 list-style: none;
 padding: 4px;
 width: 120px;
@@ -27,6 +28,7 @@ color: white;
 
 .Summary-Style:hover{
 text-align: center;
+align-item: center;
 list-style: none;
 padding: 4px;
 width: 120px;
