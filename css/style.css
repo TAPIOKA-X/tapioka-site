@@ -5,6 +5,7 @@
 
 .Center{
  text-align: center;
+ align-item: center;
 }
 
 .Dot-Font{
@@ -18,7 +19,7 @@
 text-align: center;
 list-style: none;
 padding: 4px;
-width: 100px;
+width: 110px;
 background: linear-gradient(gray,darkgray,black);
 border-radius: 9px;
 color: white;
