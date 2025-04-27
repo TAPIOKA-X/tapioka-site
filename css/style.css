@@ -14,7 +14,7 @@
  font-color: white;
 }
 
-.Menu-Style{
+.Summary-Style{
 text-align: center;
 list-style: none;
 padding: 4px;
@@ -23,7 +23,7 @@ border-radius: 9px;
 color: white;
 }
 
-.Menu-Style:hover{
+.Summary-Style:hover{
 text-align: center;
 list-style: none;
 padding: 4px;
