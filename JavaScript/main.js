@@ -27,7 +27,7 @@ function GCvideoLink(){
 }
 
 //Grace blog link
-function GCvideoLink(){
+function RLvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
 }
 
