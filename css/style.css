@@ -16,25 +16,25 @@
 }
 
 .Summary-Style{
-text-align: center;
-align-item: center;
-list-style: none;
-padding: 4px;
-width: 120px;
-background: linear-gradient(gray,darkgray,black);
-border-radius: 9px;
-color: white;
+ text-align: center;
+ align-item: center;
+ list-style: none;
+ padding: 4px;
+ width: 120px;
+ background: linear-gradient(gray,darkgray,black);
+ border-radius: 9px;
+ color: white;
 }
 
 .Summary-Style:hover{
-text-align: center;
-align-item: center;
-list-style: none;
-padding: 4px;
-width: 120px;
-background: linear-gradient(dimgray,gray,black);
-border-radius: 9px;
-color: white;
+ text-align: center;
+ align-item: center;
+ list-style: none;
+ padding: 4px;
+ width: 120px;
+ background: linear-gradient(dimgray,gray,black);
+ border-radius: 9px;
+ color: white;
 }
 
 .Button-Style{
