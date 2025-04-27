@@ -20,11 +20,6 @@ function GCvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Grace/Grace-Video.html";
 }
 
-//time runner blog link
-function TRvideoLink(){
- location.href= "https://tapioka-site.f5.si/Blog/TimeRunner/TimeRunner-Video.html";
-}
-
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
