@@ -26,6 +26,10 @@ function GCvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Grace/Grace-Video.html";
 }
 
+function GCpsLink(){
+ location.href= "https://tapioka-site.f5.si/Blog/Grace/Grace-PS.html";
+}
+
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
