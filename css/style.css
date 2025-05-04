@@ -43,7 +43,14 @@
 
 .Video-Style{
  width: 100%;
- max-width: 350px;
+ max-width: 400px;
+ border: solid;
+ border-radius: 12px;
+}
+
+.Img-Style{
+ width: 100%;
+ max-width: 450px;
  border: solid;
  border-radius: 12px;
 }
