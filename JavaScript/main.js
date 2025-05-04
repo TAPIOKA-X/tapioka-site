@@ -30,6 +30,11 @@ function GCpsLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Grace/Grace-PS.html";
 }
 
+//Rival blog link
+function GCpsLink(){
+ location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
+}
+
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
