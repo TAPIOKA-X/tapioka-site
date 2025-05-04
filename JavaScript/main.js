@@ -31,7 +31,7 @@ function GCpsLink(){
 }
 
 //Rival blog link
-function GCpsLink(){
+function RLvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
 }
 
