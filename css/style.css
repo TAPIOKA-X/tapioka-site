@@ -1,21 +1,21 @@
-.Dark-Mode{
+body{
  background-color: lightgray;
  color: black;
 }
 
-.Center{
+.body{
  text-align: center;
  align-item: center;
 }
 
-.Dot-Font{
+body{
  font-family: "DotGothic16", sans-serif;
  font-weight: 400;
  font-style: normal;
  font-color: white;
 }
 
-.Button-Style{
+button{
   background: linear-gradient(gray,darkgray,black);
   border-radius: 12px;
   color: white;
@@ -25,7 +25,7 @@
   font-style: normal;
 }
 
-.Button-Style:hover{
+button:hover{
   background: linear-gradient(dimgray,gray,black);
   border-radius: 12px;
   color: white;
@@ -41,14 +41,14 @@
  color: white;
 }
 
-.Video-Style{
+video{
  width: 100%;
  max-width: 525px;
  border: solid;
  border-radius: 12px;
 }
 
-.Img-Style{
+img{
  width: 100%;
  max-width: 450px;
  border: solid;
@@ -60,14 +60,18 @@
  border-radius: 12px;
 }
 
-.Link-Style{
+a{
  text-decoration: none;
  color: red;
  font-weigth: 900;
 }
 
-.Link-Style:hover{
+a:hover{
  text-decoration: none;
  color: darkred;
  font-weigth: 900;
+}
+
+b{
+ font-weight: 900;
 }
