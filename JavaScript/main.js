@@ -39,5 +39,5 @@ function WEBLink(){
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
- location.href= "https://tapioka-site.f5.si/";
+ location.href= "https://tapioka-site.f5.si/Menu.html";
 }
