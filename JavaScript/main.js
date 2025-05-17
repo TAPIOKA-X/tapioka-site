@@ -31,9 +31,9 @@ function RLvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
 }
 
-//Roblox studio project blog link
-function RSptLink(){
- location.href= "https://tapioka-site.f5.si/Blog/RobloxStudio/RobloxStudio-Project.html";
+//Site blog link
+function WEBLink(){
+ location.href= "https://tapioka-site.f5.si/Blog/WebSite/Html-Css.html";
 }
 
 //Alert
