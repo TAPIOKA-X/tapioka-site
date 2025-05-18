@@ -1,19 +1,7 @@
-// By: https://tapioka-site.f5.si/
-// By: https://tapioka-site.f5.si/Blog/WebSite/Html-1.html
-// This html file creat by https://tapioka-site.f5.si/
-
-// ・注意点 スラッシュ２つから始まる文字はコメントです。
-<!doctype html> //最初に書く文字
+<!doctype html>
 <html>
 
 <head>
-<link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css"></link> //css(見た目)を読み込むファイル。この場合、TAPIのホームページのCssを読み込んでいる。href= "(この部分)"は、変更可能。
-<link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png"></link> //アイコンを読み込むlinkタグ。 href= "(この部分)"は、変更可能(好きなアイコンの絶対パスまたは相対パスに変更可能。
-
-<meta http-equiv="x-ua-compatible" content="IE=edge"> //インターネットエクスプローラーに対応させるためのmetaタグ。(別に必要ない)
-<meta name= "viewport" content= "width=device-width"> //スマホなどに対応させるmetaタグ(レスポンシブ対応)
-<meta charset= "Shift_JIS"> //言語が日本語にする、文字コードを指定するmetaタグ。
-
 <title>テスト</title> //タイトルを指定するためのタグ。「テスト」の部分は変更してもOK。
 </head>
 
@@ -26,10 +14,10 @@
 
 <p class= "Border"><b>どうもこんにちは、TAPIOKAです。<br> //これが<br>の使い方(改行用途)
 ソースコードですね、これは。</b></p> //このpタグ内の日本語部分は変更可能
-</body>
-
-</html>
 
 // By: https://tapioka-site.f5.si/
 // By: https://tapioka-site.f5.si/Blog/WebSite/Html-1.html
 // This html file creat by https://tapioka-site.f5.si/
+</body>
+
+</html>
