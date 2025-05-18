@@ -1,10 +1,12 @@
+// By: https://tapioka-site.f5.si/
+// By: https://tapioka-site.f5.si/Blog/WebSite/Html-1.html
+// This html file creat by https://tapioka-site.f5.si/
+
+// ・注意点 スラッシュ２つから始まる文字はコメントです。
 <!doctype html> //最初に書く文字
 <html>
 
 <head>
-// By: https://tapioka-site.f5.si/
-// By: https://tapioka-site.f5.si/Blog/WebSite/Html-1.html
-
 <link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css"></link> //css(見た目)を読み込むファイル。この場合、TAPIのホームページのCssを読み込んでいる。href= "(この部分)"は、変更可能。
 <link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png"></link> //アイコンを読み込むlinkタグ。 href= "(この部分)"は、変更可能(好きなアイコンの絶対パスまたは相対パスに変更可能。
 
@@ -20,7 +22,14 @@
 <h1 class= "BackGround-Black">こんちは</h1> //TAPIのホームページのCssを適用した場合。(BackGround-Black)
 <h3 class= "Border">こんちは</h3> //TAPIのホームページのCssを適用した場合。(Border)
 <br> //改行などに使う
-<b>こんちは</b> //太字
+<b>こんちは</b> <br> //太字
+
+<p class= "Border"><b>どうもこんにちは、TAPIOKAです。<br> //これが<br>の使い方(改行用途)
+ソースコードですね、これは。</b></p> //このpタグ内の日本語部分は変更可能
 </body>
 
 </html>
+
+// By: https://tapioka-site.f5.si/
+// By: https://tapioka-site.f5.si/Blog/WebSite/Html-1.html
+// This html file creat by https://tapioka-site.f5.si/
