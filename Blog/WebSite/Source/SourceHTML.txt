@@ -14,6 +14,10 @@
 
 <body> //内容を囲んでいるタグ。これがないと内容が表示されない。もしダークモードにする場合は、「<body class= "Dark-Mode">」に変更。中央揃えにする場合は「Dark-Mode」にスペースを入れて、「Dark-Mode Center」にすれば完了。
 <h1>こんちは</h1> //見出しを表示させるためのタグ。
+<h1 class= "BackGround-Black">こんちは</h1> //TAPIのホームページのCssを適用した場合。(BackGround-Black)
+<h3 class= "Border">こんちは</h3> //TAPIのホームページのCssを適用した場合。(Border)
+<br> //改行などに使う
+<b>こんちは</b> //太字
 </body>
 
 </html>
