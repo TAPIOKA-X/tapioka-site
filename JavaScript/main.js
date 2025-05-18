@@ -33,7 +33,7 @@ function RLvideoLink(){
 
 //Site blog link
 function WEBLink(){
- location.href= "https://tapioka-site.f5.si/Blog/WebSite/Html-#1.html";
+ location.href= "https://tapioka-site.f5.si/Blog/WebSite/Html-1.html";
 }
 
 //Alert
