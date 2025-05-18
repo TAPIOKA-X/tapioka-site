@@ -2,6 +2,9 @@
 <html>
 
 <head>
+// By: https://tapioka-site.f5.si/
+// By: https://tapioka-site.f5.si/Blog/WebSite/Html-1.html
+
 <link rel= "stylesheet" href= "https://tapioka-site.f5.si/css/style.css"></link> //css(見た目)を読み込むファイル。この場合、TAPIのホームページのCssを読み込んでいる。href= "(この部分)"は、変更可能。
 <link rel= "icon" href= "https://tapioka-site.f5.si/img/icon/tapioka-icon.png"></link> //アイコンを読み込むlinkタグ。 href= "(この部分)"は、変更可能(好きなアイコンの絶対パスまたは相対パスに変更可能。
 
