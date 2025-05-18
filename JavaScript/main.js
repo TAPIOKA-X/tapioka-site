@@ -31,11 +31,6 @@ function RLvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
 }
 
-//Site blog link
-function WEBLink(){
- location.href= "https://tapioka-site.f5.si/Blog/WebSite/Html-1.html";
-}
-
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
