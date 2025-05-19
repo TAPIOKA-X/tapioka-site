@@ -46,6 +46,7 @@ video{
  max-width: 525px;
  border: solid;
  border-radius: 12px;
+ aspect-ratio: 16 / 9;
 }
 
 img{
@@ -53,6 +54,7 @@ img{
  max-width: 450px;
  border: solid;
  border-radius: 12px;
+ aspect-ratio: 16 / 9;
 }
 
 .Border{
