@@ -9,6 +9,10 @@ function MenuLink(){
 }
 
 //Unwavering soul blog link
+function USwikiLink(){
+ location.href= "https://unwaveringsoul.wiki.tapioka-site.f5.si/";
+}
+
 function USpsLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html";
 }
@@ -19,6 +23,11 @@ function USytLink(){
 
 function USvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-Video.html";
+}
+
+function USdiscordLink(){
+ alert("Discordのサイトのリダイレクトされます。よろしいですか？");
+ location.href= "https://discord.gg/2JhnSZzTXz";
 }
 
 //Grace blog link
