@@ -1,3 +1,6 @@
+alert("活動休止します。\n色々と迷惑をかけてしまってすみませんでした。\nまた会う日まで...");
+location.href= "https://google.com/";
+
 //Link
 function HomeLink(){
  location.href= "https://tapioka-site.f5.si/";
