@@ -1,4 +1,4 @@
-alert("活動休止します。\n色々と迷惑をかけてしまってすみませんでした。\nまた会う日まで...");
+alert("アップデート中");
 location.href= "https://google.com/";
 
 //Link
