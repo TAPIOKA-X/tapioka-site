@@ -1,5 +1,5 @@
-alert("アップデート中");
-location.href= "https://google.com/";
+var UpdateText = "アップデート中です。(サイトはご利用可能です)";
+alert(UpdateText);
 
 //Link
 function HomeLink(){
