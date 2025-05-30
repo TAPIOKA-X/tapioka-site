@@ -1,5 +1,9 @@
-var UpdateText = "アップデート中です。(サイトはご利用可能です)";
-alert(UpdateText);
+if(document.title = ""){
+ var UpdateText = "アップデート中です。(サイトはご利用可能です)";
+ alert(UpdateText);
+}else{
+ ;
+}
 
 //Link
 function HomeLink(){
@@ -26,7 +30,7 @@ function USvideoLink(){
 
 function USdiscordLink(){
  alert("Discordのサイトのリダイレクトされます。よろしいですか？");
- location.href= "https://discord.gg/2JhnSZzTXz";
+ location.href= "https://discord.gg/s3QHYkqe4K";
 }
 
 //Grace blog link
