@@ -1,10 +1,3 @@
-if(document.title = "TAPIのホームページ"){
- var UpdateText = "アップデート中です。(サイトはご利用可能です)";
- alert(UpdateText);
-}else{
- ;
-}
-
 //Link
 function HomeLink(){
  location.href= "https://tapioka-site.f5.si/";
