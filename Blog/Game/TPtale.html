@@ -21,11 +21,12 @@
 <body>
 <p><b>Hp: </b><p id= "Hp">100</p></p>
 <script>
-alert("制作段階です。バグ修正は後にします。");
- Hp.innerHTML = -5;
+//alert("制作段階です。バグ修正は後にします。");
 var Hp = document.getElementById("Hp");
+var MaxHp = 100
+
 function Damage(){
- Hp.innerHTML = -5;
+ Hp.innerHTML = -- MaxHp;
 }
 </script>
 </body>
