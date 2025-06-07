@@ -36,9 +36,14 @@ function RLvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
 }
 
-//Rival blog link
+//YouTube blog link
 function YTBsiteLink(){
  location.href= "https://tapioka-site.f5.si/Blog/YouTube/YouTube-Site.html";
+}
+
+//Html-PDF template
+function HtmlpdfLink(){
+ location.href= "https://tapioka-site.f5.si/Blog/Html/Html-PDF.html";
 }
 
 //Alert
