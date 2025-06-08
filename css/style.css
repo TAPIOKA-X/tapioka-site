@@ -74,10 +74,13 @@ hr{
  color: black;
 }
 
+iframe{
+ border: solid;
+ border-radius: 9px;
+}
+
 .iframe-video{
  width: 100%;
  max-width: 525px;
- border: solid;
- border-radius: 12px;
  aspect-ratio: 16 / 9;
 }
