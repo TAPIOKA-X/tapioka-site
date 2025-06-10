@@ -25,7 +25,7 @@ button:hover{
 
 .BackGround-Black{
  background: linear-gradient(gray,black);
- border-radius: 12px;
+ border-radius: 9px;
  color: white;
 }
 
@@ -33,7 +33,7 @@ video{
  width: 100%;
  max-width: 525px;
  border: solid;
- border-radius: 12px;
+ border-radius: 10px;
  aspect-ratio: 16 / 9;
 }
 
@@ -41,7 +41,7 @@ img{
  width: 100%;
  max-width: 450px;
  border: solid;
- border-radius: 12px;
+ border-radius: 9px;
  aspect-ratio: 16 / 9;
 }
 
