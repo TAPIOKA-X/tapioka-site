@@ -23,6 +23,15 @@ button:hover{
   background: linear-gradient(dimgray,gray,black);
 }
 
+summary{
+  background: linear-gradient(lightgray,silver,darkgray);
+  font-size: 16px;
+}
+
+summary:hover{
+  background: linear-gradient(gainsboro,dimgray,gray);
+}
+
 .BackGround-Black{
  background: linear-gradient(gray,black);
  border-radius: 9px;
