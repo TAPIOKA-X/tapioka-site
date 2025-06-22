@@ -30,6 +30,7 @@ summary{
   list-style: none;
   font-size: 16px;
   paddinf: 2px;
+  height: 20px;
 }
 
 summary:hover{
