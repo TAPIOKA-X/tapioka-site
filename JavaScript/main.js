@@ -46,6 +46,11 @@ function SourceCodeLink(){
  location.href= "https://tapioka-site.f5.si/Blog/SourceCode/Download.html";
 }
 
+//PC
+function SourceCodeLink(){
+ location.href= "https://tapioka-site.f5.si/Blog/PC/MainPC_1.html";
+}
+
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
