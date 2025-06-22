@@ -43,7 +43,7 @@ function YTBsiteLink(){
 
 //PC
 function MainPCLink(){
- location.href= "https://tapioka-site.f5.si/Blog/PC/MainPC_1.html";
+ location.href= "https://tapioka-site.f5.si/Blog/PC/MainPC.html";
 }
 
 //Alert
