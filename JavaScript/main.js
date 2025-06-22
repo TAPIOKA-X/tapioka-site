@@ -41,9 +41,9 @@ function YTBsiteLink(){
  location.href= "https://tapioka-site.f5.si/Blog/YouTube/YouTube-Site.html";
 }
 
-//Html-PDF template
-function HtmlpdfLink(){
- location.href= "https://tapioka-site.f5.si/Blog/Html/Html-PDF.html";
+//SourceCode template
+function SourceCodeLink(){
+ location.href= "https://tapioka-site.f5.si/Blog/SourceCode/Download.html";
 }
 
 //Alert
