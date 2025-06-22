@@ -50,7 +50,7 @@ video{
  aspect-ratio: 16 / 9;
 }
 
-img{
+img :not(.not_image-css){
  width: 100%;
  max-width: 450px;
  border: solid;
