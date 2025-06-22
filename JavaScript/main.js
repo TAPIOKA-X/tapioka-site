@@ -47,7 +47,7 @@ function SourceCodeLink(){
 }
 
 //PC
-function SourceCodeLink(){
+function MainPCLink(){
  location.href= "https://tapioka-site.f5.si/Blog/PC/MainPC_1.html";
 }
 
