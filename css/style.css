@@ -39,6 +39,7 @@ summary{
   color: red;
   border: solid;
   border-radius: 10px;
+  border-color: black;
   list-style: none;
   font-size: 16px;
   padding: 6px;
