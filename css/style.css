@@ -30,12 +30,13 @@ details{
 }
 
 details [open]{
- display: flex;
+ display: inline-block;
  justify-content: center;
 }
 
 summary{
   background: linear-gradient(lightgray,silver,darkgray);
+  color: red;
   border: solid;
   border-radius: 10px;
   list-style: none;
@@ -48,6 +49,7 @@ summary{
 
 summary:hover{
   background: linear-gradient(gainsboro,dimgray,gray);
+  color: darkred;
 }
 
 .BackGround-Black{
