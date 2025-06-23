@@ -35,6 +35,8 @@ details [open]{
 }
 
 summary{
+  display: inline-block;
+  justify-content: center;
   background: linear-gradient(lightgray,silver,darkgray);
   color: red;
   border: solid;
