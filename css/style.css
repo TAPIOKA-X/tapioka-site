@@ -24,19 +24,7 @@ button:hover{
   background: linear-gradient(dimgray,gray,black);
 }
 
-details{
- display: flex;
- justify-content: center;
-}
-
-details [open]{
- display: flex;
- justify-content: center;
-}
-
 summary{
-  display: inline-block;
-  justify-content: center;
   background: linear-gradient(lightgray,silver,darkgray);
   color: red;
   border: solid;
