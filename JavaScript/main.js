@@ -40,7 +40,9 @@ function RLvideoLink(){
 function YTBsiteLink(){
  location.href= "https://tapioka-site.f5.si/Blog/YouTube/YouTube-Site.html";
 }
-
+function rPandaDownloadLink(){
+ location.href= "https://github.com/TAPIOKA-X/TP-Tools";
+}
 //PC
 function MainPCLink(){
  location.href= "https://tapioka-site.f5.si/Blog/PC/MainPC.html";
