@@ -72,12 +72,12 @@ img :not(.not_image-css){
 a{
  text-decoration: none;
  color: red;
- font-weigth: 900;
+ font-weight: 900;
 }
 
 a:hover{
  color: darkred;
- font-weigth: 900;
+ font-weight: 900;
 }
 
 b{
