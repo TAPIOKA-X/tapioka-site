@@ -8,6 +8,17 @@ function MenuLink(){
   location.href= "https://tapioka-site.f5.si/Menu.html";
 }
 
+//etc..
+function RobloxGroupLink(){
+ alert("Roblox.comに移動します、よろしいですか？");
+ location.href= "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
+};
+
+function DiscordLink(){
+ alert("Discord.ggに移動します、よろしいですか？");
+ location.href= "https://discord.gg/s3QHYkqe4K";
+}
+
 //Unwavering soul blog link
 function USpsLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html";
@@ -19,11 +30,6 @@ function USytLink(){
 
 function USvideoLink(){
  location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-Video.html";
-}
-
-function USdiscordLink(){
- alert("Discordのサイトのリダイレクトされます。よろしいですか？");
- location.href= "https://discord.gg/s3QHYkqe4K";
 }
 
 //Grace blog link
