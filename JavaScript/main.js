@@ -43,9 +43,6 @@ function RLvideoLink(){
 }
 
 //YouTube blog link
-function YTBsiteLink(){
- location.href= "https://tapioka-site.f5.si/Blog/YouTube/YouTube-Site.html";
-}
 function rPandaDownloadLink(){
  location.href= "https://github.com/TAPIOKA-X/TP-Tools";
 }
