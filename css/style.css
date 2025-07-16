@@ -64,6 +64,12 @@ img :not(.not_image-css){
  aspect-ratio: 16 / 9;
 }
 
+input[type="text"]{
+ border-radius: 12px;
+ font-size: 22px;
+ font-weight: 900;
+}
+
 .Border{
  border: solid;
  border-radius: 10px;
