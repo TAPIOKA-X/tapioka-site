@@ -11,12 +11,12 @@ function MenuLink(){
 //etc..
 function RobloxGroupLink(){
  alert("Roblox.comに移動します、よろしいですか？");
- location.href= "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
+ window.open("https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about","_blank");
 };
 
 function DiscordLink(){
  alert("Discord.ggに移動します、よろしいですか？");
- location.href= "https://discord.gg/s3QHYkqe4K";
+ window.open("https://discord.gg/s3QHYkqe4K","_blank");
 }
 
 //Unwavering soul blog link
