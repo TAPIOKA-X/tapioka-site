@@ -57,10 +57,10 @@ video{
 }
 
 img :not(.not_image-css){
- width: 100%;
- max-width: 450px;
  border: solid;
  border-radius: 9px;
+ width: 100%;
+ max-width: 450px;
  aspect-ratio: 16 / 9;
 }
 
