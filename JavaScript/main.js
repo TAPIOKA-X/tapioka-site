@@ -21,25 +21,25 @@ function DiscordLink(){
 
 //Unwavering soul blog link
 function USpsLink(){
- location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html";
+ window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
 }
 
 function USytLink(){
- location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html";
+ window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html","_blank");
 }
 
 function USvideoLink(){
- location.href= "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-Video.html";
+ window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
 }
 
 //Grace blog link
 function GCvideoLink(){
- location.href= "https://tapioka-site.f5.si/Blog/Grace/Grace-Video.html";
+ window.open("https://tapioka-site.f5.si/Blog/Grace/Grace-Video.html","_blank");
 }
 
 //Rival blog link
 function RLvideoLink(){
- location.href= "https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html";
+ window.open("https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html","_blank");
 }
 
 //YouTube blog link
@@ -48,11 +48,11 @@ function rPandaDownloadLink(){
 }
 //PC
 function MainPCLink(){
- location.href= "https://tapioka-site.f5.si/Blog/PC/MainPC.html";
+ window.open("https://tapioka-site.f5.si/Blog/PC/MainPC.html","_blank");
 }
 
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
- location.href= "https://tapioka-site.f5.si/Menu.html";
+ location.href= "https://tapioka-site.f5.si/";
 }
