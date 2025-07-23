@@ -19,6 +19,10 @@ function DiscordLink(){
  window.open("https://discord.gg/s3QHYkqe4K","_blank");
 }
 
+function LINELink(){
+ alert("LINEに移動します、よろしいですか？");
+ window.open("https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default");
+}
 //Unwavering soul blog link
 function USpsLink(){
  window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
