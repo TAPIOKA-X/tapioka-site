@@ -14,10 +14,10 @@ function RobloxGroupLink(){
  window.open("https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about","_blank");
 };
 
-function DiscordLink(){
- alert("Discord.ggに移動します、よろしいですか？");
- window.open("https://discord.gg/s3QHYkqe4K","_blank");
-}
+//function DiscordLink(){
+ //alert("Discord.ggに移動します、よろしいですか？");
+//window.open("https://discord.gg/s3QHYkqe4K","_blank");
+//}
 
 function LINELink(){
  alert("LINEに移動します、よろしいですか？");
