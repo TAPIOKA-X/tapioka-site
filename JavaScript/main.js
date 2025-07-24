@@ -50,10 +50,6 @@ function RLvideoLink(){
 function rPandaDownloadLink(){
  location.href= "https://github.com/TAPIOKA-X/TP-Tools";
 }
-//PC
-function MainPCLink(){
- window.open("https://tapioka-site.f5.si/Blog/PC/MainPC.html","_blank");
-}
 
 //Alert
 function UpdateAlert(){
