@@ -1,11 +1,11 @@
 //Link
 function HomeLink(){
- location.href= "https://tapioka-site.f5.si/";
+ location.href= "../index.html";
 }
 
 //Menu link
 function MenuLink(){
-  location.href= "https://tapioka-site.f5.si/Menu.html";
+  location.href= "../Menu.html";
 }
 
 //etc..
@@ -25,32 +25,26 @@ function LINELink(){
 }
 //Unwavering soul blog link
 function USpsLink(){
- window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
+ window.open("Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
 }
 
 function USytLink(){
- window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html","_blank");
+ window.open("Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html","_blank");
 }
 
 function USvideoLink(){
- window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
+ window.open("Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
 }
 
 //Grace blog link
 function GCvideoLink(){
- window.open("https://tapioka-site.f5.si/Blog/Grace/Grace-Video.html","_blank");
+ window.open("Blog/Grace/Grace-Video.html","_blank");
 }
 
 //Rival blog link
 function RLvideoLink(){
  window.open("Blog/Rival/Rival-Video.html","_blank");
 }
-
-//YouTube blog link
-function rPandaDownloadLink(){
- location.href= "https://github.com/TAPIOKA-X/TP-Tools";
-}
-
 
 function WebShortCutDownloadPages(){
  window.open("Blog/Tool/Download/WebSiteShortCut_Download-Link.html");
