@@ -1,6 +1,6 @@
 //Link
 function HomeLink(){
- location.href= "../index.html";
+ location.href= "https://tapioka-site.f5.si";
 }
 
 //Menu link
