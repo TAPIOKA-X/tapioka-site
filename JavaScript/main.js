@@ -12,7 +12,7 @@ function MenuLink(){
 function RobloxGroupLink(){
  alert("Roblox.comに移動します、よろしいですか？");
  window.open("https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about","_blank");
-};
+}
 
 //function DiscordLink(){
  //alert("Discord.ggに移動します、よろしいですか？");
@@ -43,7 +43,7 @@ function GCvideoLink(){
 
 //Rival blog link
 function RLvideoLink(){
- window.open("https://tapioka-site.f5.si/Blog/Rival/Rival-Video.html","_blank");
+ window.open("Blog/Rival/Rival-Video.html","_blank");
 }
 
 //YouTube blog link
@@ -51,6 +51,10 @@ function rPandaDownloadLink(){
  location.href= "https://github.com/TAPIOKA-X/TP-Tools";
 }
 
+
+function WebShortCutDownloadPages(){
+ window.open("Blog/Tool/Download/WebSiteShortCut_Download-Link.html");
+}
 //Alert
 function UpdateAlert(){
  alert("現在制作中です。");
