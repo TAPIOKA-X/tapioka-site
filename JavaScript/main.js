@@ -1,9 +1,5 @@
 //コメント書くの一番疲れたｗ
 
-//変数
-//揺るぎない魂のプライベートサーバーコードを保管している変数
-var USPScode = document.getElementById("UnwaveringSoulPrivateServerCode").textContent;
-
 //基本的なボタンのクリック処理の関数
 //index.htmlにつながるリンクのクリック処理
 function HomeLink(){
@@ -72,5 +68,5 @@ function UpdateAlert(){
 
 //揺るぎない魂プライベートサーバーコードをコピーする処理を書いてる関数
 function PScodeCopy(){
- navigator.clipboard.writeText(USPScode);
+ navigator.clipboard.writeText("g99Vi48");
 }
