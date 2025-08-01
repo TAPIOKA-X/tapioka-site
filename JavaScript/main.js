@@ -75,5 +75,3 @@ function PScodeCopy(){
  navigator.clipboard.writeText(USPScode);
  alert("たぶんコピー成功してます。");
 }
-//ボタンにイベントリスナーを登録してるあれ(?
-USPScodeCopyButton.addEventListener("click",copyText);
