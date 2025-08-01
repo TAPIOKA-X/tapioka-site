@@ -26,10 +26,10 @@ function RobloxGroupLink(){
 }
 
 //ディスコードサーバーの「TP Gamers」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
-//function DiscordLink(){
- //alert("Discord.ggに移動します、よろしいですか？");
-//window.open("https://discord.gg/s3QHYkqe4K","_blank");
-//}
+function DiscordLink(){
+ alert("Discord.ggに移動します、よろしいですか？");
+window.open("https://discord.gg/s3QHYkqe4K","_blank");
+}
 //LINEオープンチャット「揺るぎない魂のオプチャ」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 function LINELink(){
  alert("LINEに移動します、よろしいですか？");
