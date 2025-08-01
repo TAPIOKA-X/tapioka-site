@@ -48,6 +48,7 @@ summary:hover{
  background: linear-gradient(gray,black);
  border-radius: 9px;
  color: white;
+ -webkit-text-stroke: 0.7px black;
 }
 
 video{
@@ -91,7 +92,7 @@ a:hover{
 b{
  font-weight: 900;
  color: white;
- -webkit-text-stroke: 1px black;
+ -webkit-text-stroke: 0.3px black;
 }
 
 hr{
