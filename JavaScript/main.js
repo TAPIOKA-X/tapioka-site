@@ -73,9 +73,7 @@ function UpdateAlert(){
 
 //揺るぎない魂プライベートサーバーコードをコピーする処理を書いてる関数
 function PScodeCopy(){
- USPScode.select();
- document.execCommand("copy")
- USPScode.setSelectionRange(0,0);
+ navigator.clipboard.writeText("test");
  alert("たぶんコピー成功してます。");
 }
 //ボタンにイベントリスナーを登録してるあれ(?
