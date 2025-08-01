@@ -3,7 +3,6 @@
 //変数
 //揺るぎない魂のプライベートサーバーコードのIdなどを保管している変数
 var USPScode = document.getElementById("UnwaveringSoulPrivateServerCode");
-var USPScodeCopyButton = document.getElementById("UnwaveringSoulPrivateServerCodeCopyButton");
 
 //基本的なボタンのクリック処理の関数
 //index.htmlにつながるリンクのクリック処理
@@ -73,7 +72,7 @@ function UpdateAlert(){
 
 //揺るぎない魂プライベートサーバーコードをコピーする処理を書いてる関数
 function PScodeCopy(){
- navigator.clipboard.writeText("test");
+ navigator.clipboard.writeText(USPScode);
  alert("たぶんコピー成功してます。");
 }
 //ボタンにイベントリスナーを登録してるあれ(?
