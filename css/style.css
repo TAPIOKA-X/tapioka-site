@@ -34,7 +34,9 @@ summary{
   list-style: none;
   font-size: 16px;
   padding: 6px;
+  width: 430px;
   height: 20px;
+  display: inline-block;
 }
 
 summary:hover{
