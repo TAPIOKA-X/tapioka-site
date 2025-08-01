@@ -1,56 +1,82 @@
-//Link
+//コメント書くの一番疲れたｗ
+
+//変数
+//揺るぎない魂のプライベートサーバーコードのIdを保管している関数
+var USPScode = document.getElementById("UnwaveringSoulPrivateServerCode");
+var USPScodeCopyButton = document.getElementById("UnwaveringSoulPrivateServerCodeCopyButton");
+
+//基本的なボタンのクリック処理の関数
+//index.htmlにつながるリンクのクリック処理
 function HomeLink(){
  location.href= "https://tapioka-site.f5.si";
 }
-
-//Menu link
+//Menu.htmlにつながるリンクのクリック処理
 function MenuLink(){
   location.href= "../Menu.html";
 }
 
-//etc..
+//コミニティなどに繋がるクリック処理を書いてる関数
+//Robloxのグループ「TAPIOKA」のリンク
 function RobloxGroupLink(){
  alert("Roblox.comに移動します、よろしいですか？");
  window.open("https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about","_blank");
 }
 
+//ディスコードサーバーの「TP Gamers」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 //function DiscordLink(){
  //alert("Discord.ggに移動します、よろしいですか？");
 //window.open("https://discord.gg/s3QHYkqe4K","_blank");
 //}
-
+//LINEオープンチャット「揺るぎない魂のオプチャ」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 function LINELink(){
  alert("LINEに移動します、よろしいですか？");
  window.open("https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default");
 }
-//Unwavering soul blog link
+
+//揺るぎない魂 / Unwavering Soul
+//揺るぎない魂のプライベートサーバーコードを置いてるページに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 function USpsLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
 }
-
+//揺るぎない魂関連のユーチューバーを宣伝してる場所 (新しいタブで開く)
+//今後のユーチューバー紹介のページはいつか消して、統合されたページを作ります。いつかなので結構時間掛かりそうですが(サボり)
 function USytLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html","_blank");
 }
-
+//揺るぎない魂関連の動画を置いてあるページに繋がる処理を書いてる関数 (新しいタブで開く)
 function USvideoLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
 }
 
-//Grace blog link
+//グレース / Grace
+//グレース関連の動画を置いてあるページに繋がる処理を書いてる関数 (新しいタブで開く)
 function GCvideoLink(){
  window.open("Blog/Grace/Grace-Video.html","_blank");
 }
 
-//Rival blog link
+//ライバル / Rivals
+//ライバル関連の動画を置いてあるページに繋がる処理を書いてる関数 (新しいタブで開く)
 function RLvideoLink(){
  window.open("Blog/Rival/Rival-Video.html","_blank");
 }
 
+//僕が自作したアプリの紹介ページ、ダウンロードページ に繋がる処理を書いてる関数 (すべて新しいタブで開く)
 function WebShortCutDownloadPages(){
  window.open("Blog/Tool/Download/WebSiteShortCut_Download-Link.html");
 }
-//Alert
+
+//その他の関数 (アップデート中の警告、揺るぎない魂のプラサバコードをコピーするための関数)
 function UpdateAlert(){
  alert("現在制作中です。");
  location.href= "https://tapioka-site.f5.si/";
 }
+
+//揺るぎない魂プライベートサーバーコードをコピーする処理を書いてる関数
+function PScodeCopy(){
+ USPScode.select();
+ document.execCommand("copy")
+ USPScode.setSelectionRange(0,0);
+ alert("たぶんコピー成功してます。");
+}
+//ボタンにイベントリスナーを登録してるあれ(?
+USPScodeCopyButton.addEventListener("click",copyText);
