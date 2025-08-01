@@ -1,14 +1,17 @@
 //コメント書くの一番疲れたｗ
 
 //変数
-//揺るぎない魂のプライベートサーバーコードのIdを保管している関数
+//便利にするために設定した、変数
+var lhf = location.href;
+var wop = window.open;
+//揺るぎない魂のプライベートサーバーコードのIdなどを保管している変数
 var USPScode = document.getElementById("UnwaveringSoulPrivateServerCode");
 var USPScodeCopyButton = document.getElementById("UnwaveringSoulPrivateServerCodeCopyButton");
 
 //基本的なボタンのクリック処理の関数
 //index.htmlにつながるリンクのクリック処理
 function HomeLink(){
- location.href= "https://tapioka-site.f5.si";
+ lhf= "https://tapioka-site.f5.si";
 }
 //Menu.htmlにつながるリンクのクリック処理
 function MenuLink(){
