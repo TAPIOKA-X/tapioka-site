@@ -1,8 +1,8 @@
 //コメント書くの一番疲れたｗ
 
 //変数
-//揺るぎない魂のプライベートサーバーコードのIdなどを保管している変数
-var USPScode = document.getElementById("UnwaveringSoulPrivateServerCode");
+//揺るぎない魂のプライベートサーバーコードを保管している変数
+var USPScode = document.getElementById("UnwaveringSoulPrivateServerCode").textContent;
 
 //基本的なボタンのクリック処理の関数
 //index.htmlにつながるリンクのクリック処理
