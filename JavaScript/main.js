@@ -73,5 +73,4 @@ function UpdateAlert(){
 //揺るぎない魂プライベートサーバーコードをコピーする処理を書いてる関数
 function PScodeCopy(){
  navigator.clipboard.writeText(USPScode);
- alert("たぶんコピー成功してます。");
 }
