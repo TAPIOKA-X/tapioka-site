@@ -12,7 +12,7 @@ function HomeLink(){
 }
 //Menu.htmlにつながるリンクのクリック処理
 function MenuLink(){
-  location.href= "../Menu.html";
+  location.href= "https://tapioka-site.f5.si/Menu.html";
 }
 
 //コミニティなどに繋がるクリック処理を書いてる関数
