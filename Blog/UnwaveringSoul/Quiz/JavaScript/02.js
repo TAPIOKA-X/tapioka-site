@@ -1,4 +1,4 @@
-var Quiz = document.getElementById("EasyQuiz01");
+var Quiz = document.getElementById("QuizForm");
 
 function Answer(){
   if(Quiz.value == "2018年9月3日"){
