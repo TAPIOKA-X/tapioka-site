@@ -9,17 +9,6 @@
 <link rel= "icon" href= "../../img/icon/tapioka-icon.png">
 
 <script src= "../../JavaScript/main.js"></script>
-<script>
-var EasyQuiz01 = document.getElementById("EasyQuiz01");
-
-function Anwser(){
-  if(EasyQuiz01.value == "YaoYN"){
-    alert("正解です。\nTEST MASSEGE");
-  }else if(EasyQuiz01.value === "Sang"){
-    ;
-  };
-}
-</script>
 
 <meta http-equiv="x-ua-compatible" content="IE=edge">
 <meta name= "description" content= "ゲームや、PC改造などを投稿してるサイトです！">
@@ -40,8 +29,19 @@ function Anwser(){
 
 <h3 class= "Border">第1問: 揺るぎない魂の製作者は誰？ (Robloxユーザー名で答えてください。) / 難易度: Easy</h3>
 <b>回答:&nbsp;<input id= "EasyQuiz01" type= "text" value= "-答え-"><br>
-<button onclick= "Anwser()">- 判定 -</button></b> <br>
+<button onclick= "Answer()">- 判定 -</button></b> <br>
 
+<script>
+var EasyQuiz01 = document.getElementById("EasyQuiz01");
+
+function Answer(){
+  if(EasyQuiz01.value == "YaoYN"){
+    alert("正解です。\nTEST MASSEGE");
+  }else if(EasyQuiz01.value === "Sang"){
+    ;
+  };
+};
+</script>
 </div>
 </body>
 
