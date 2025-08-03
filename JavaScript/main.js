@@ -43,6 +43,11 @@ function USvideoLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
 }
 
+//揺るぎない魂のクイズ
+function USquizLink(){
+ window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/Quiz/01.html");
+}
+
 //グレース / Grace
 //グレース関連の動画を置いてあるページに繋がる処理を書いてる関数 (新しいタブで開く)
 function GCvideoLink(){
