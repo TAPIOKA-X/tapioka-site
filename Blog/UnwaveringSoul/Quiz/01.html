@@ -32,12 +32,18 @@
 <button onclick= "Answer()">- 判定 -</button></b> <br>
 
 <script>
+obj.onload function(){
+  alert("現在アップーデートしているため、このページはご利用できません。");
+  location.href= "https://tapioka-site.f5.si";
+}
+  
 var Quiz = document.getElementById("QuizForm");
+var QuizTitle = document.getElementById("QuizTitle");
 
 function Answer(){
   if(Quiz.value == "YaoYN"){
-    alert("正解です。揺るぎない魂の製作者のユーザーネームは「YaoYN」です。\n2問目に移動します！！2問目も頑張りましょう！");
-    location.href= "02.html";
+    alert("正解です。揺るぎない魂の製作者のユーザーネームは「YaoYN」です。\n2問目を表示します！！2問目も頑張りましょう！");
+    QuizTitle.innerHTML = "";
   }else{
     alert("不正解です。もう１度挑戦しましょう！");
   };
