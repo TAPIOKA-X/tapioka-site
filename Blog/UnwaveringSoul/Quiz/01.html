@@ -32,20 +32,41 @@
 <button onclick= "Answer()">- 判定 -</button></b> <br>
 
 <script>
-obj.onload function(){
-  alert("現在アップーデートしているため、このページはご利用できません。");
-  location.href= "https://tapioka-site.f5.si";
-}
-
+alert("現在、テストバージョンです。");
 var Quiz = document.getElementById("QuizForm");
 var QuizTitle = document.getElementById("QuizTitle");
 
 function Answer(){
+//問題1
   if(Quiz.value == "YaoYN"){
     alert("正解です。揺るぎない魂の製作者のユーザーネームは「YaoYN」です。\n2問目を表示します！！2問目も頑張りましょう！");
     document.title = "【第2問】揺るぎない魂 クイズ";
     QuizTitle.innerHTML = "第2問: 揺るぎない魂が作られたのはいつ？ (例: 2025年8月3日)";
-  }else{
+  //問題2
+   if(Quiz.value == "2018年9月5日"){
+      alert("正解です。揺るぎない魂が作られたのは、「2018年9月5日」です。。\n3問目に移動します！！3問目も頑張りましょう！");
+      document.title = "【第3問】揺るぎない魂 クイズ";
+      QuizTitle.innerHTML = "第3問: 揺るぎない魂の武器「JOVILSCYTHE」の基礎ダメージは？　(例: 766666)";
+    //問題3
+     if(Quiz.value == "750000"){
+     alert("正解です。揺るぎない魂の武器「」のダメージは「750000(75万)」です。。\n4問目に移動します！！4問目も頑張りましょう！");
+     document.title = "【第4問】揺るぎない魂 クイズ";
+     QuizTitle.innerHTML = "第4問: 揺るぎない魂のボス「Grillby(グリルビー)」のHp(必要なACTの数)は？　(例: 25)";
+     if(Quiz.value == "60"){
+    alert("正解です。揺るぎない魂のボス「Grillby」のHpは「60」です。\n5問目に移動します！！5問目も頑張りましょう！\n5問目はまだ作れてないよ！");
+//不正解else
+}else{
+    alert("不正解です。もう１度挑戦しましょう！");
+  };
+}else{
+    alert("不正解です。もう１度挑戦しましょう！");
+  };
+};
+}else{
+      alert("不正解です。もう１度挑戦しましょう！");
+  };
+};
+}else{
     alert("不正解です。もう１度挑戦しましょう！");
   };
 };
