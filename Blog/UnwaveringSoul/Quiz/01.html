@@ -36,14 +36,15 @@ obj.onload function(){
   alert("現在アップーデートしているため、このページはご利用できません。");
   location.href= "https://tapioka-site.f5.si";
 }
-  
+
 var Quiz = document.getElementById("QuizForm");
 var QuizTitle = document.getElementById("QuizTitle");
 
 function Answer(){
   if(Quiz.value == "YaoYN"){
     alert("正解です。揺るぎない魂の製作者のユーザーネームは「YaoYN」です。\n2問目を表示します！！2問目も頑張りましょう！");
-    QuizTitle.innerHTML = "";
+    document.title = "【第2問】揺るぎない魂 クイズ";
+    QuizTitle.innerHTML = "第2問: 揺るぎない魂が作られたのはいつ？ (例: 2025年8月3日)";
   }else{
     alert("不正解です。もう１度挑戦しましょう！");
   };
