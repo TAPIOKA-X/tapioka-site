@@ -31,7 +31,19 @@
 <b>回答:&nbsp;<input id= "QuizForm" type= "text" value= "-答え-"><br>
 <button onclick= "Answer()">- 判定 -</button></b> <br>
 
-<script src= "JavaScript/02.js"></script>
+<script>
+var Quiz = document.getElementById("QuizForm");
+
+function Answer(){
+  if(Quiz.value == "2018年9月5日"){
+    alert("正解です。揺るぎない魂が作られたのは、「2018年9月5日」です。。\n3問目に移動します！！3問目も頑張りましょう！");
+    location.href= "03.html";
+  }else{
+    alert("不正解です。もう１度挑戦しましょう！");
+  };
+};
+</script>
+
 </div>
 </body>
 
