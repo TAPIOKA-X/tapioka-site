@@ -31,7 +31,18 @@
 <b>回答:&nbsp;<input id= "QuizForm" type= "text" value= "-答え-"><br>
 <button onclick= "Answer()">- 判定 -</button></b> <br>
 
-<script src= "JavaScript/04.js"></script>
+<script>
+var Quiz = document.getElementById("QuizForm");
+
+function Answer(){
+  if(Quiz.value == "60"){
+    alert("正解です。揺るぎない魂のボス「Grillby」のHpは「60」です。\n5問目に移動します！！5問目も頑張りましょう！\n5問目はまだ作れてないよ！");
+    //location.href= "05.html";
+  }else{
+    alert("不正解です。もう１度挑戦しましょう！");
+  };
+};
+</script>
 </div>
 </body>
 
