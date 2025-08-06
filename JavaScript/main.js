@@ -33,11 +33,7 @@ function LINELink(){
 function USpsLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
 }
-//揺るぎない魂関連のユーチューバーを宣伝してる場所 (新しいタブで開く)
-//今後のユーチューバー紹介のページはいつか消して、統合されたページを作ります。いつかなので結構時間掛かりそうですが(サボり)
-function USytLink(){
- window.open("Blog/UnwaveringSoul/UnwaveringSoul-YouTuber.html","_blank");
-}
+
 //揺るぎない魂関連の動画を置いてあるページに繋がる処理を書いてる関数 (新しいタブで開く)
 function USvideoLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
@@ -58,6 +54,11 @@ function GCvideoLink(){
 //ライバル関連の動画を置いてあるページに繋がる処理を書いてる関数 (新しいタブで開く)
 function RLvideoLink(){
  window.open("Blog/Rival/Rival-Video.html","_blank");
+}
+
+//YouTuber宣伝の場所
+function YouTuberLink(){
+ window.open("Blog/YouTube/YouTuber.html");
 }
 
 //僕が自作したアプリの紹介ページ、ダウンロードページ に繋がる処理を書いてる関数 (すべて新しいタブで開く)
