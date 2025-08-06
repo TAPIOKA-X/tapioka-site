@@ -74,5 +74,6 @@ function UpdateAlert(){
 
 //揺るぎない魂プライベートサーバーコードをコピーする処理を書いてる関数
 function PScodeCopy(){
- navigator.clipboard.writeText("g99Vi48");
+ var PScode = document.getElementById("UnwaveringSoulPrivateServer").textContent;
+ navigator.clipboard.writeText(PScode);
 }
