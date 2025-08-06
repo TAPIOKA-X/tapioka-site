@@ -25,7 +25,7 @@ window.open("https://discord.gg/s3QHYkqe4K","_blank");
 //LINEオープンチャット「揺るぎない魂のオプチャ」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 function LINELink(){
  alert("LINEに移動します、よろしいですか？");
- window.open("https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default");
+ window.open("https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default","_blank");
 }
 
 //揺るぎない魂 / Unwavering Soul
@@ -41,7 +41,7 @@ function USvideoLink(){
 
 //揺るぎない魂のクイズ
 function USquizLink(){
- window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/Quiz/01.html");
+ window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/Quiz/01.html","_blank");
 }
 
 //グレース / Grace
@@ -58,12 +58,12 @@ function RLvideoLink(){
 
 //YouTuber宣伝の場所
 function YouTuberLink(){
- window.open("Blog/YouTube/YouTuber.html");
+ window.open("Blog/YouTube/YouTuber.html","_blank");
 }
 
 //僕が自作したアプリの紹介ページ、ダウンロードページ に繋がる処理を書いてる関数 (すべて新しいタブで開く)
 function WebShortCutDownloadPages(){
- window.open("Blog/Tool/Download/WebSiteShortCut_Download-Link.html");
+ window.open("Blog/Tool/Download/WebSiteShortCut_Download-Link.html","_blank");
 }
 
 //その他の関数 (アップデート中の警告、揺るぎない魂のプラサバコードをコピーするための関数)
