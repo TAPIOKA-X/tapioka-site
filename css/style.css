@@ -106,4 +106,6 @@ iframe{
  width: 100%;
  max-width: 525px;
  aspect-ratio: 16 / 9;
+ border: solid;
+ border-radius: 10px;
 }
