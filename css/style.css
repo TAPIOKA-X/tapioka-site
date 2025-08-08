@@ -83,7 +83,6 @@ summary:hover{
 .BackGround-Black{
  background: linear-gradient(gray,black);
  border-radius: 9px;
- border: solid;
  color: white;
 }
 
