@@ -19,14 +19,14 @@ button{
  font-style: normal;
  font-size: 16px;
  padding: 6px;
- animation: Button-Animetion 7s infinite;
+ animation: Border-Animetion 8s infinite;
 }
 
 button:hover{
   background: linear-gradient(dimgray,gray,black);
 }
 
-@keyframes Button-Animetion{
+@keyframes Border-Animetion{
 0%{
   border-color: red;
   border-color: red;
@@ -83,7 +83,9 @@ summary:hover{
 .BackGround-Black{
  background: linear-gradient(gray,black);
  border-radius: 9px;
+ border: solid;
  color: white;
+ animation: Border-Animetion 8s infinite;
 }
 
 video{
