@@ -13,7 +13,7 @@ button{
  background: linear-gradient(gray,darkgray,black);
  border: solid black;
  border-radius: 10px;
- border-image: conic-gradient(#f5f551,#5eff5e,#84a1ff,#ff45ff,#ff5a5a,#ffbc41,#f5f551);
+ border-image: conic-gradient(to right,#f5f551,#5eff5e,#84a1ff,#ff45ff,#ff5a5a,#ffbc41,#f5f551);
  color: white;
  font-family: "DotGothic16", sans-serif;
  font-weight: 900;
