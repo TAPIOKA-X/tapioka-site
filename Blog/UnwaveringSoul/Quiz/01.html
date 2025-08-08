@@ -27,7 +27,7 @@
 
 <h1 class= "BackGround-Black">揺るぎない魂 クイズ</h1>
 
-<h3 class= "Border" id= "QuizTitle">第1問: 揺るぎない魂の製作者は誰？ (Robloxユーザー名で答えてください。)</h3>
+<h3 class= "Border" id= "QuizTitle">第1問: 揺るぎない魂の英語名はなんですか？(例: Blox Fruits)</h3>
 <b>回答:&nbsp;<input id= "QuizForm" type= "text" value= "-答え-"><br>
 <button onclick= "Answer()">- 判定 -</button></b> <br>
 
@@ -35,8 +35,8 @@
 var Quiz = document.getElementById("QuizForm");
 
 function Answer(){
-  if(Quiz.value == "YaoYN"){
-    alert("正解です。揺るぎない魂の製作者は「YaoYN」です。。\n2問目に移動します！！2問目も頑張りましょう！");
+  if(Quiz.value == "Unwavering Soul"){
+    alert("正解です。揺るぎない魂の英語名は「Unwavering Soul」です。。\n2問目に移動します！！2問目も頑張りましょう！");
     location.href= "02.html";
   }else{
     alert("不正解です。もう１度挑戦しましょう！");
