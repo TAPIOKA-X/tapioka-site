@@ -29,83 +29,31 @@ button:hover{
 @keyframes Button-Animetion{
 0%{
   border-color: red;
-  border-color: blue;
-  border-color: blue;
+  border-color: red;
+  border-color: darkred;
+  border-color: darkred;
 }
 5%{
-  border-color: darkred;
-  border-color: darkred;
-}
-10%{
   border-color: blue;
   border-color: blue;
-}
-15%{
   border-color: darkblue;
   border-color: darkblue;
-}
-20%{
-  border-color: yellow;
-  border-color: yellow;
-}
-25%{
- border-color: gold;
- border-color: gold;
-}
-35%{
-  border-color: purple;
-  border-color: purple;
-}
-40%{
- boder-color: invigo;
- boder-color: invigo;
-}
-45%{
- border-color: lime;
- border-color: lime;
 }
 50%{
- border-color: limegreen;
- border-color: limegreen;
-}
-55%{
-  border-color: red;
-  border-color: blue;
-  border-color: blue;
-}
-65%{
-  border-color: darkred;
-  border-color: darkred;
-}
-70%{
-  border-color: blue;
-  border-color: blue;
+ border-color: yellow;
+ border-color: yellow;
+ border-color: gold;
+ border-color: gold;
 }
 75%{
-  border-color: darkblue;
-  border-color: darkblue;
-}
-80%{
-  border-color: yellow;
-  border-color: yellow;
-}
-85%{
- border-color: gold;
- border-color: gold;
-}
-90%{
-  border-color: purple;
-  border-color: purple;
-}
-95%{
+ border-color: purple;
+ border-color: purple;
  boder-color: invigo;
  boder-color: invigo;
-}
-98%{
- border-color: lime;
- border-color: lime;
 }
 100%{
+ border-color: lime;
+ border-color: lime;
  border-color: limegreen;
  border-color: limegreen;
 }
