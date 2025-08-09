@@ -61,10 +61,15 @@ function WebShortCutDownloadPages(){
 //その他の関数
 function UpdateAlert(){
  alert("現在制作中です。");
- location.href= "https://tapioka-site.f5.si/";
+ location.href= Home;
 }
 
 function PScodeCopy(){
  var PScode = document.getElementById("UnwaveringSoulPrivateServer").textContent;
  navigator.clipboard.writeText(PScode);
+}
+
+function ShareLinkCopy(){
+ var ShareLink = "https://tapioka-site.f5.si/Share.html";
+ navigator.clipboard.writeText(ShareLink);
 }
