@@ -28,6 +28,7 @@ window.onload = function(){
    RLvideo1.src = RLvideo1_Link;
    RLvideo2.src = RLvideo2_Link;
    RLvideo3.src = RLvideo3_Link;
- }else if(document.title === "Grace 動画");
+ }else if(document.title === "Grace 動画"){
    GCvideo1.src = GCvideo1_Link;
+ };
 };
