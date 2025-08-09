@@ -84,4 +84,5 @@ function PScodeCopy(){
 function ShareLinkCopy(){
  var ShareLink = "https://tapioka-site.f5.si/Share.html";
  navigator.clipboard.writeText(ShareLink);
+ alert("コピーできました。");
 }
