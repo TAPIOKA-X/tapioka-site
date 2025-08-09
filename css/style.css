@@ -13,50 +13,17 @@ button{
  background: linear-gradient(gray,darkgray,black);
  border: solid black;
  border-radius: 10px;
- color: white;
  font-family: "DotGothic16", sans-serif;
  font-weight: 900;
  font-style: normal;
  font-size: 16px;
+ color: white;
  padding: 6px;
  animation: Border-Rainbow 8s infinite;
 }
 
 button:hover{
   background: linear-gradient(dimgray,gray,black);
-}
-
-@keyframes Border-Rainbow{
-0%{
-  border-color: red;
-  border-color: red;
-  border-color: darkred;
-  border-color: darkred;
-}
-5%{
-  border-color: blue;
-  border-color: blue;
-  border-color: darkblue;
-  border-color: darkblue;
-}
-50%{
- border-color: yellow;
- border-color: yellow;
- border-color: gold;
- border-color: gold;
-}
-75%{
- border-color: purple;
- border-color: purple;
- boder-color: invigo;
- boder-color: invigo;
-}
-100%{
- border-color: lime;
- border-color: lime;
- border-color: limegreen;
- border-color: limegreen;
-}
 }
 
 summary{
@@ -128,10 +95,6 @@ b{
  font-weight: 900;
 }
 
-hr{
- color: black;
-}
-
 iframe{
  border: solid;
  border-radius: 9px;
@@ -181,5 +144,37 @@ iframe{
  color: limegreen;
  color: limegreen;
 }
+}
+
+@keyframes Border-Rainbow{
+0%{
+  border-color: red;
+  border-color: red;
+  border-color: darkred;
+  border-color: darkred;
+}
+5%{
+  border-color: blue;
+  border-color: blue;
+  border-color: darkblue;
+  border-color: darkblue;
+}
+50%{
+ border-color: yellow;
+ border-color: yellow;
+ border-color: gold;
+ border-color: gold;
+}
+75%{
+ border-color: purple;
+ border-color: purple;
+ boder-color: invigo;
+ boder-color: invigo;
+}
+100%{
+ border-color: lime;
+ border-color: lime;
+ border-color: limegreen;
+ border-color: limegreen;
 }
 }
