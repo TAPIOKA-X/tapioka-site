@@ -19,14 +19,14 @@ button{
  font-style: normal;
  font-size: 16px;
  padding: 6px;
- animation: Border-Animetion 8s infinite;
+ animation: Border-Rainbow 8s infinite;
 }
 
 button:hover{
   background: linear-gradient(dimgray,gray,black);
 }
 
-@keyframes Border-Animetion{
+@keyframes Border-Rainbow{
 0%{
   border-color: red;
   border-color: red;
@@ -143,4 +143,43 @@ iframe{
  aspect-ratio: 16 / 9;
  border: solid;
  border-radius: 10px;
+}
+
+.RainBow-Text{
+ font-weight: 900;
+ animation: Rainbow 8s infinite;
+}
+
+@keyframes Rainbow{
+0%{
+  color: red;
+  color: red;
+  color: darkred;
+  color: darkred;
+}
+5%{
+  color: blue;
+  color: blue;
+  color: darkblue;
+  color: darkblue;
+}
+50%{
+ color: yellow;
+ color: yellow;
+ color: gold;
+ color: gold;
+}
+75%{
+ color: purple;
+ color: purple;
+ color: invigo;
+ color: invigo;
+}
+100%{
+ color: lime;
+ color: lime;
+ color: limegreen;
+ color: limegreen;
+}
+}
 }
