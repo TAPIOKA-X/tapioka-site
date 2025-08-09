@@ -11,7 +11,7 @@ body{
 
 button{
  background: linear-gradient(gray,darkgray,black);
- border: 1px solid black;
+ border: solid black;
  border-radius: 10px;
  font-family: "DotGothic16", sans-serif;
  font-weight: 900;
