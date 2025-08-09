@@ -30,7 +30,7 @@ summary{
   all: unset;
   background: linear-gradient(lightgray,silver,darkgray);
   color: red;
-  border: 1px solid black;
+  border: solid black;
   border-radius: 10px;
   font-size: 16px;
   max-width: 430px;
