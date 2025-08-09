@@ -66,7 +66,7 @@ function YouTuberLink(){
  window.open("Blog/YouTube/YouTuber.html","_blank");
 }
 
-functionr PandaToolDownloadPages(){
+function PandaToolDownloadPages(){
  window.open("Blog/Tool/Download/rPanda_Download-Link.html");
 }
 
