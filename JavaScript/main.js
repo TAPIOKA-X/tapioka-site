@@ -5,6 +5,18 @@ var RobloxGroup = "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/abou
 var TP_Gamers = "https://discord.gg/s3QHYkqe4K";
 var LINE = "https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default";
 
+//Shareページなのか確認
+window.onload = function(){
+
+ if(document.title === "Share"){
+  setTimeout(function(){
+   location.href= Home;
+  },3000);
+ }else{
+  ;
+ };
+};
+
 //基本的な関数
 function HomeLink(){
  location.href = Home;
