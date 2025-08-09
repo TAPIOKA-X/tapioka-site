@@ -12,7 +12,7 @@ var GCvideo1 = document.getElementById("GraceVideo-320");
 var USvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/v8xgrqn7id2suas8t27gh/UnwaveringSoul-KingSum.mp4?rlkey=jmu1197f66isz43j9w4d04fqs&st=g93sebis&dl=0";
 var USvideo2_Link = "https://dl.dropboxusercontent.com/scl/fi/o32o8jsy42rl8dk7bexyc/UnwaveringSoul-AlphysNEO.mp4?rlkey=q3adpkimidd5mn2jk2xg8jrad&st=xpdf1f3d&dl=0";
 var USvideo3_Link = "https://tapioka-site.f5.si/Blog/UnwaveringSoul/Video/UnwaveringSoul-100Dummy.mp4";
-var USvideo4_Link = "https://onedrive.live.com/personal/8f195d6b34cc43d9/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2F8f195d6b34cc43d9%2FDocuments%2Fvideo%2FUnwaveringSoul%2DSC%2DSans%2Emp4";
+var USvideo4_Link = "https://dl.dropboxusercontent.com/scl/fi/27vh88esv7bsc6kyhzv7n/UnwaveringSoul-SC-Sans.mp4?rlkey=3qerez4noff8rx3ifxnzjr8iq&st=iyord9mc&dl=0";
 var RLvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/allqlkcvn3k8s9ujvnjh5/Rival-1v1-3.mp4?rlkey=w30c3u9rfavl7qeun9xbft6a8&st=g8b7etbu&dl=0";
 var RLvideo2_Link = "https://tapioka-site.f5.si/Blog/Rival/Video/Rival-1v1-5.mp4";
 var RLvideo3_Link = "https://dl.dropboxusercontent.com/scl/fi/vvv6nxtx4y290syh2a6f8/Rival-Acarde-Knife.mp4?rlkey=sycioa1c40mm3be7uyfofwgsg&st=8t1xn654&dl=0";
