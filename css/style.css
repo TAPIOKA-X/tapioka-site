@@ -11,7 +11,8 @@ body{
 
 button{
  background: linear-gradient(gray,darkgray,black);
- border: 10px solid black;
+ border: 1px solid black;
+ border-radius: 10px;
  font-family: "DotGothic16", sans-serif;
  font-weight: 900;
  font-style: normal;
@@ -29,7 +30,8 @@ summary{
   all: unset;
   background: linear-gradient(lightgray,silver,darkgray);
   color: red;
-  border: 10px solid black;
+  border: 1px solid black;
+  border-radius: 10px;
   font-size: 16px;
   max-width: 430px;
   width: 100%;
@@ -53,12 +55,14 @@ summary:hover{
 video{
  width: 100%;
  max-width: 525px;
- border: 8px solid black;
+ border: 1px solid black;
+ border-radius: 10px;
  aspect-ratio: 16 / 9;
 }
 
 img{
- border: 10px solid black;
+ border: 1px solid black;
+ border-radius: 10px;
  width: 100%;
  max-width: 450px;
  aspect-ratio: 16 / 9;
@@ -71,7 +75,8 @@ input[type="text"]{
 }
 
 .Border{
- border: 10px solid;
+ border: 1px solid;
+ border-radius: 10px;
 }
 
 a{
@@ -90,14 +95,16 @@ b{
 }
 
 iframe{
- border: 10px solid black;
+ border: 1px solid white;
+ border-radius: 10px;
 }
 
 .iframe-video{
  width: 100%;
  max-width: 525px;
  aspect-ratio: 16 / 9;
- border: 10px solid black;
+ border: 1px solid black;
+ border-radius: 10px;
 }
 
 .RainBow-Text{
