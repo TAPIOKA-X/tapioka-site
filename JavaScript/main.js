@@ -67,7 +67,7 @@ function YouTuberLink(){
 }
 
 function PandaToolDownloadPages(){
- window.open("Blog/Tool/Download/rPanda_Download-Link.html");
+ window.open("Blog/Tool/Download/rPanda_Download-Link.html","_blank");
 }
 
 function WebShortCutDownloadPages(){
