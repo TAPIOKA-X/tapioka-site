@@ -75,7 +75,7 @@ input[type="text"]{
 }
 
 .Border{
- border: 1px solid;
+ border: solid;
  border-radius: 10px;
 }
 
