@@ -1,31 +1,37 @@
 //コメント書くの一番疲れたｗ
+//変数
+var Home = "https://tapioka-site.f5.si";
+var Menu = "https://tapioka-site.f5.si/Menu.html";
+var RobloxGroup = "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
+var TP_Gamers = "https://discord.gg/s3QHYkqe4K";
+var LINE = "https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default";
 
 //基本的なボタンのクリック処理の関数
 //index.htmlにつながるリンクのクリック処理
 function HomeLink(){
- location.href = "https://tapioka-site.f5.si";
+ location.href = Home;
 }
 //Menu.htmlにつながるリンクのクリック処理
 function MenuLink(){
-  location.href= "https://tapioka-site.f5.si/Menu.html";
+  location.href= Menu;
 }
 
 //コミニティなどに繋がるクリック処理を書いてる関数
 //Robloxのグループ「TAPIOKA」のリンク
 function RobloxGroupLink(){
  alert("Roblox.comに移動します、よろしいですか？");
- window.open("https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about","_blank");
+ window.open(RobloxGroup,"_blank");
 }
 
 //ディスコードサーバーの「TP Gamers」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 function DiscordLink(){
  alert("Discord.ggに移動します、よろしいですか？");
-window.open("https://discord.gg/s3QHYkqe4K","_blank");
+window.open(TP_Gamers,"_blank");
 }
 //LINEオープンチャット「揺るぎない魂のオプチャ」の招待リンクに繋がるクリック処理を書いてる関数 (新しいタブで開く)
 function LINELink(){
  alert("LINEに移動します、よろしいですか？");
- window.open("https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default","_blank");
+ window.open(LINE,"_blank");
 }
 
 //揺るぎない魂 / Unwavering Soul
@@ -41,7 +47,7 @@ function USvideoLink(){
 
 //揺るぎない魂のクイズ
 function USquizLink(){
- window.open("https://tapioka-site.f5.si/Blog/UnwaveringSoul/Quiz/01.html","_blank");
+ window.open("Blog/UnwaveringSoul/Quiz/01.html","_blank");
 }
 
 //グレース / Grace
