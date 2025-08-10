@@ -71,7 +71,7 @@ function PandaToolDownloadPages(){
 }
 
 function WebShortCutDownloadPages(){
- window.open("Blog/Tool/Download/WebSiteShortCut_Download-Link.html","_blank");
+ window.open("Blog/Tool/Download/WebSiteShortCut_Download.html","_blank");
 }
 
 //その他の関数
