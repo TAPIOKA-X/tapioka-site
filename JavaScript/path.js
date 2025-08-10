@@ -11,10 +11,10 @@ var USvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/v8xgrqn7id2suas8t2
 var USvideo2_Link = "https://dl.dropboxusercontent.com/scl/fi/o32o8jsy42rl8dk7bexyc/UnwaveringSoul-AlphysNEO.mp4?rlkey=q3adpkimidd5mn2jk2xg8jrad&st=xpdf1f3d&dl=0";
 var USvideo3_Link = "https://tapioka-site.f5.si/Blog/UnwaveringSoul/Video/UnwaveringSoul-100Dummy.mp4";
 var USvideo4_Link = "https://dl.dropboxusercontent.com/scl/fi/27vh88esv7bsc6kyhzv7n/UnwaveringSoul-SC-Sans.mp4?rlkey=3qerez4noff8rx3ifxnzjr8iq&st=iyord9mc&dl=0";
-var Rival_Id_1_Link = "https://dl.dropboxusercontent.com/scl/fi/allqlkcvn3k8s9ujvnjh5/Rival-1v1-3.mp4?rlkey=w30c3u9rfavl7qeun9xbft6a8&st=g8b7etbu&dl=0";
-var RLvideo2_Link = "https://tapioka-site.f5.si/Blog/Rival/Video/Rival-1v1-5.mp4";
-var RLvideo3_Link = "https://dl.dropboxusercontent.com/scl/fi/vvv6nxtx4y290syh2a6f8/Rival-Acarde-Knife.mp4?rlkey=sycioa1c40mm3be7uyfofwgsg&st=8t1xn654&dl=0";
-var RLvideo4_Link = "https://dl.dropboxusercontent.com/fi/76geivfx0gf3cwj4dk7tw/Rival-AR-GoldWrap.mp4?rlkey=8qnjwf6wh9rm0liply5ijgnzb&st=qkzvz3ll&dl=0";
+
+var Rival_Id_1_Link = "https://dl.dropboxusercontent.com/fi/76geivfx0gf3cwj4dk7tw/Rival-AR-GoldWrap.mp4?rlkey=8qnjwf6wh9rm0liply5ijgnzb&st=qkzvz3ll&dl=0";
+var Rival_Id_2_Link = "https://dl.dropboxusercontent.com/scl/fi/vvv6nxtx4y290syh2a6f8/Rival-Acarde-Knife.mp4?rlkey=sycioa1c40mm3be7uyfofwgsg&st=8t1xn654&dl=0";
+
 var Grace_Id_1_Link = "https://dl.dropboxusercontent.com/scl/fi/gtis6mibihen5ni3k0v4f/Grace-320.mp4?rlkey=nnvv8tl0yeehb2wlecitgmuj4&st=ghtrzxqv&dl=0";
 
 window.onload = function(){
