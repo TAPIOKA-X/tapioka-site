@@ -45,21 +45,9 @@ function USpsLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
 }
 
-function USvideoLink(){
- window.open("Blog/UnwaveringSoul/UnwaveringSoul-Video.html","_blank");
-}
-
 //揺るぎない魂のクイズ
 function USquizLink(){
  window.open("Blog/UnwaveringSoul/Quiz/01.html","_blank");
-}
-
-function GCvideoLink(){
- window.open("Blog/Grace/Grace-Video.html","_blank");
-}
-
-function RLvideoLink(){
- window.open("Blog/Rival/Rival-Video.html","_blank");
 }
 
 function YouTuberLink(){
