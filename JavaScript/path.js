@@ -7,7 +7,7 @@ var RLvideo1 = document.getElementById("Rival-1");
 var RLvideo2 = document.getElementById("Rival-2");
 var RLvideo3 = document.getElementById("Rival-3");
 var RLvideo4 = document.getElementById("Rival-4");
-var GCvideo1 = document.getElementById("GraceVideo-320");
+var GCvideo1 = document.getElementById("Grace_Id-1");
 
 //動画のファイルパス
 var USvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/v8xgrqn7id2suas8t27gh/UnwaveringSoul-KingSum.mp4?rlkey=jmu1197f66isz43j9w4d04fqs&st=g93sebis&dl=0";
