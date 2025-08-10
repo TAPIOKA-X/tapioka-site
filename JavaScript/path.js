@@ -7,7 +7,7 @@ var RLvideo1 = document.getElementById("Rival-1");
 var RLvideo2 = document.getElementById("Rival-2");
 var RLvideo3 = document.getElementById("Rival-3");
 var RLvideo4 = document.getElementById("Rival-4");
-var GCvideo1 = document.getElementById("Grace_Id-1");
+var Grace_Id_1 = document.getElementById("Grace_Id-1");
 
 //動画のファイルパス
 var USvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/v8xgrqn7id2suas8t27gh/UnwaveringSoul-KingSum.mp4?rlkey=jmu1197f66isz43j9w4d04fqs&st=g93sebis&dl=0";
@@ -18,7 +18,7 @@ var RLvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/allqlkcvn3k8s9ujvn
 var RLvideo2_Link = "https://tapioka-site.f5.si/Blog/Rival/Video/Rival-1v1-5.mp4";
 var RLvideo3_Link = "https://dl.dropboxusercontent.com/scl/fi/vvv6nxtx4y290syh2a6f8/Rival-Acarde-Knife.mp4?rlkey=sycioa1c40mm3be7uyfofwgsg&st=8t1xn654&dl=0";
 var RLvideo4_Link = "https://dl.dropboxusercontent.com/fi/76geivfx0gf3cwj4dk7tw/Rival-AR-GoldWrap.mp4?rlkey=8qnjwf6wh9rm0liply5ijgnzb&st=qkzvz3ll&dl=0";
-var GCvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/gtis6mibihen5ni3k0v4f/Grace-320.mp4?rlkey=nnvv8tl0yeehb2wlecitgmuj4&st=ghtrzxqv&dl=0";
+var Grace_Id_1_Link = "https://dl.dropboxusercontent.com/scl/fi/gtis6mibihen5ni3k0v4f/Grace-320.mp4?rlkey=nnvv8tl0yeehb2wlecitgmuj4&st=ghtrzxqv&dl=0";
 
 window.onload = function(){
  if(document.title === "揺るぎない魂 動画"){
@@ -31,7 +31,7 @@ window.onload = function(){
    RLvideo2.src = RLvideo2_Link;
    RLvideo3.src = RLvideo3_Link;
    RLvideo4.src = RLvideo4_Link;
- }else if(document.title === "Grace 動画"){
-   GCvideo1.src = GCvideo1_Link;
+ }else if(document.title === "Grace 320 - TAPI-HomePage"){
+   Grace_Id_1.src = Grace_Id_1_Link;
  };
 };
