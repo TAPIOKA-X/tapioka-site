@@ -6,7 +6,7 @@ var USvideo4 = document.getElementById("SC-Sans");
 var RLvideo1 = document.getElementById("Rival-1");
 var RLvideo2 = document.getElementById("Rival-2");
 var RLvideo3 = document.getElementById("Rival-3");
-var RLvideo3 = document.getElementById("Rival-4");
+var RLvideo4 = document.getElementById("Rival-4");
 var GCvideo1 = document.getElementById("GraceVideo-320");
 
 //動画のファイルパス
@@ -30,6 +30,7 @@ window.onload = function(){
    RLvideo1.src = RLvideo1_Link;
    RLvideo2.src = RLvideo2_Link;
    RLvideo3.src = RLvideo3_Link;
+   RLvideo4.src = RLvideo4_Link;
  }else if(document.title === "Grace 動画"){
    GCvideo1.src = GCvideo1_Link;
  };
