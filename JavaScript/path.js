@@ -6,6 +6,7 @@ var USvideo4 = document.getElementById("SC-Sans");
 var RLvideo1 = document.getElementById("Rival-1");
 var RLvideo2 = document.getElementById("Rival-2");
 var RLvideo3 = document.getElementById("Rival-3");
+var RLvideo3 = document.getElementById("Rival-4");
 var GCvideo1 = document.getElementById("GraceVideo-320");
 
 //動画のファイルパス
@@ -16,6 +17,7 @@ var USvideo4_Link = "https://dl.dropboxusercontent.com/scl/fi/27vh88esv7bsc6kyhz
 var RLvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/allqlkcvn3k8s9ujvnjh5/Rival-1v1-3.mp4?rlkey=w30c3u9rfavl7qeun9xbft6a8&st=g8b7etbu&dl=0";
 var RLvideo2_Link = "https://tapioka-site.f5.si/Blog/Rival/Video/Rival-1v1-5.mp4";
 var RLvideo3_Link = "https://dl.dropboxusercontent.com/scl/fi/vvv6nxtx4y290syh2a6f8/Rival-Acarde-Knife.mp4?rlkey=sycioa1c40mm3be7uyfofwgsg&st=8t1xn654&dl=0";
+var RLvideo4_Link = "https://dl.dropboxusercontent.com/fi/76geivfx0gf3cwj4dk7tw/Rival-AR-GoldWrap.mp4?rlkey=8qnjwf6wh9rm0liply5ijgnzb&st=qkzvz3ll&dl=0";
 var GCvideo1_Link = "https://dl.dropboxusercontent.com/scl/fi/gtis6mibihen5ni3k0v4f/Grace-320.mp4?rlkey=nnvv8tl0yeehb2wlecitgmuj4&st=ghtrzxqv&dl=0";
 
 window.onload = function(){
