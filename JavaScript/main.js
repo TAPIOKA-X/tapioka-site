@@ -66,14 +66,6 @@ function YouTuberLink(){
  window.open("Blog/YouTube/YouTuber.html","_blank");
 }
 
-function PandaToolDownloadPages(){
- window.open("Blog/Tool/Download/rPanda_Download-Link.html","_blank");
-}
-
-function WebShortCutDownloadPages(){
- window.open("Blog/Tool/Download/WebSiteShortCut_Download.html","_blank");
-}
-
 //その他の関数
 function UpdateAlert(){
  alert("現在制作中です。");
