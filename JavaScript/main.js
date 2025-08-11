@@ -2,7 +2,6 @@
 var Home = "https://tapioka-site.f5.si";
 var Menu = "https://tapioka-site.f5.si/Menu.html";
 var RobloxGroup = "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
-var TP_Gamers = "https://discord.gg/s3QHYkqe4K";
 var LINE = "https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default";
 
 //Shareページなのか確認
@@ -29,11 +28,6 @@ function MenuLink(){
 function RobloxGroupLink(){
  alert("Roblox.comに移動します、よろしいですか？");
  window.open(RobloxGroup,"_blank");
-}
-
-function DiscordLink(){
- alert("Discord.ggに移動します、よろしいですか？");
-window.open(TP_Gamers,"_blank");
 }
 
 function LINELink(){
