@@ -39,9 +39,8 @@ function USpsLink(){
  window.open("Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
 }
 
-//揺るぎない魂のクイズ
-function USquizLink(){
- window.open("Blog/UnwaveringSoul/Quiz/01.html","_blank");
+function USwikiLink(){
+ window.open("Blog/UnwaveringSoul/WiKi/WiKi-Menu.html","_blank");
 }
 
 function YouTuberLink(){
