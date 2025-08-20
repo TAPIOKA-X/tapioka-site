@@ -1,6 +1,6 @@
 window.onload = function(){
-//Systen
 var dt = document.title;
+
 //Flowey
 var Flowey_1 = document.getElementById("Flowey_1");
 var Flowey_2 = document.getElementById("Flowey_2");
