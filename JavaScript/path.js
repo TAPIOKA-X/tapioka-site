@@ -1,17 +1,16 @@
-//System
+window.onload = function(){
+//Systen
 var dt = document.title;
-
 //Flowey
-var Flowey_1 = document.getElementById("Flowey-1");
-var Flowey_2 = document.getElementById("Flowey-2");
-var Flowey_3 = document.getElementById("Flowey-3");
-var Flowey_4 = document.getElementById("Flowey-4");
+var Flowey_1 = document.getElementById("Flowey_1");
+var Flowey_2 = document.getElementById("Flowey_2");
+var Flowey_3 = document.getElementById("Flowey_3");
+var Flowey_4 = document.getElementById("Flowey_4");
 //Dummy
 var Dummy_1 = document.getElementById("Dummy-1");
 var Dummy_2 = document.getElementById("Dummy-2");
 var Dummy_3 = document.getElementById("Dummy-3");
 
-window.onload = function(){
  if(dt === "フラウィー"){
   Flowey_1.src = "//trello.com/1/cards/627c2e67e22ccc585f9c25e9/attachments/627c30b594fcf3453ae99a8b/download/e58b69741726028fd2e68e5504036b26.png";
   Flowey_2.src = "//trello.com/1/cards/627c2e67e22ccc585f9c25e9/attachments/642a1072bd22037775739d0b/download/86ce723ad00bf2c7ab0fca1804a736b7.gif";
