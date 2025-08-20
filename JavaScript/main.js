@@ -1,8 +1,8 @@
 //コメント書くの一番疲れたｗ
-var Home = "https://tapioka-site.f5.si";
-var Menu = "https://tapioka-site.f5.si/Menu.html";
-var RobloxGroup = "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
-var LINE = "https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default";
+var Home = "//tapioka-site.f5.si";
+var Menu = "//tapioka-site.f5.si/Menu.html";
+var RobloxGroup = "//www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
+var LINE = "//line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default";
 
 //Shareページなのか確認
 window.onload = function(){
@@ -54,12 +54,12 @@ function UpdateAlert(){
 }
 
 function PScodeCopy(){
- var PScode = document.getElementById("UnwaveringSoulPrivateServer").textContent;
+ var PScode = document.getElementById("US-PS").textContent;
  navigator.clipboard.writeText(PScode);
 }
 
 function ShareLinkCopy(){
- var ShareLink = "https://tapioka-site.f5.si/Share.html";
+ var ShareLink = "//tapioka-site.f5.si/Share.html";
  navigator.clipboard.writeText(ShareLink);
  alert("コピーできました。");
 }
