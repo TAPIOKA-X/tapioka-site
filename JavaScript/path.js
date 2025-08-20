@@ -22,4 +22,4 @@ window.onload = function(){
    Dummy_2.src = "//i.gyazo.com/0754f1ec6aad52375e333c117cca9a84.png";
    Dummy_3.src = "";
  }
-}:
+};
