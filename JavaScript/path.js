@@ -7,9 +7,9 @@ var Flowey_2 = document.getElementById("Flowey_2");
 var Flowey_3 = document.getElementById("Flowey_3");
 var Flowey_4 = document.getElementById("Flowey_4");
 //Dummy
-var Dummy_1 = document.getElementById("Dummy-1");
-var Dummy_2 = document.getElementById("Dummy-2");
-var Dummy_3 = document.getElementById("Dummy-3");
+var Dummy_1 = document.getElementById("Dummy_1");
+var Dummy_2 = document.getElementById("Dummy_2");
+var Dummy_3 = document.getElementById("Dummy_3");
 
  if(dt === "フラウィー"){
   Flowey_1.src = "//trello.com/1/cards/627c2e67e22ccc585f9c25e9/attachments/627c30b594fcf3453ae99a8b/download/e58b69741726028fd2e68e5504036b26.png";
