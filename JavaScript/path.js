@@ -20,5 +20,6 @@ var Dummy_3 = document.getElementById("Dummy-3");
    Dummy_1.src = "//trello.com/1/cards/627c2e7bde760363e8933e98/attachments/627d1168783eef1a7b3ef341/download/27157f71c14ba59a8a3706d0b2275997.png";
    Dummy_2.src = "//i.gyazo.com/0754f1ec6aad52375e333c117cca9a84.png";
    Dummy_3.src = "";
+   Dummy_4.src = "";
  }
 };
