@@ -1,65 +1,32 @@
 //コメント書くの一番疲れたｗ
-var Home = "//tapioka-site.f5.si";
-var Menu = "//tapioka-site.f5.si/Menu.html";
-var RobloxGroup = "//www.roblox.com/ja/communities/33917666/TAPIOKA#!/about";
-var LINE = "//line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default";
-
-//Shareページなのか確認
-window.onload = function(){
-
- if(document.title === "Share"){
-  setTimeout(function(){
-   location.href= Home;
-  },3000);
- }else{
-  ;
- };
+const URL = {
+ Home: "//tapioka-site.f5.si",
+ Menu: "//tapioka-site.f5.si/Menu.html",
+ RobloxGroup: "//www.roblox.com/ja/communities/33917666/TAPIOKA#!/about",
+ LINE: "//line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
 };
 
-//基本的な関数
+//Shareページなのか確認
 function HomeLink(){
- location.href = Home;
+ location.href= URL.Home;
 }
 
-function MenuLink(){
-  location.href= Menu;
+function MenuLink{
+ location.href= URL.Menu;
 }
 
-function RobloxGroupLink(){
- alert("Roblox.comに移動します、よろしいですか？");
- window.open(RobloxGroup,"_blank");
-}
 
-function LINELink(){
- alert("LINEに移動します、よろしいですか？");
- window.open(LINE,"_blank");
-}
 
-function USpsLink(){
- window.open("Blog/UnwaveringSoul/UnwaveringSoul-PS.html","_blank");
-}
 
-function USwikiLink(){
- window.open("Blog/UnwaveringSoul/WiKi/WiKi-Menu.html","_blank");
-}
-
-function YouTuberLink(){
- window.open("Blog/YouTube/YouTuber.html","_blank");
-}
 
 //その他の関数
-function UpdateAlert(){
- alert("現在制作中です。");
- location.href= Home;
-}
-
 function PScodeCopy(){
- var PScode = document.getElementById("US-PS").textContent;
+ let PScode = document.getElementById("US-PS").textContent;
  navigator.clipboard.writeText(PScode);
 }
 
 function ShareLinkCopy(){
- var ShareLink = "//tapioka-site.f5.si/Share.html";
+ const ShareLink = "//tapioka-site.f5.si/Share.html";
  navigator.clipboard.writeText(ShareLink);
  alert("コピーできました。");
 }
