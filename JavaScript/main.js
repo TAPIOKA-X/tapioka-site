@@ -1,6 +1,6 @@
 //コメント書くの一番疲れたｗ
 const URL = {
- Home: "httos://tapioka-site.f5.si",
+ Home: "https://tapioka-site.f5.si",
  Menu: "https://tapioka-site.f5.si/Menu.html",
  UsPs: "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html",
  YouTuber: "https://tapioka-site.f5.si/Blog/YouTube/YouTuber.html",
