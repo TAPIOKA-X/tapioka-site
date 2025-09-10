@@ -55,6 +55,7 @@ summary:hover{
 video{
  width: 100%;
  max-width: 445px;
+ padding: 3px;
  border: 1px solid black;
  border-radius: 10px;
  aspect-ratio: 16 / 9;
