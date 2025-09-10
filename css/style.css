@@ -54,10 +54,11 @@ summary:hover{
 
 video{
  width: 100%;
- max-width: 745px;
+ max-width: 445px;
  border: 1px solid black;
  border-radius: 10px;
  aspect-ratio: 16 / 9;
+ animation: Border-RainBow 7s infinite;
 }
 
 img{
