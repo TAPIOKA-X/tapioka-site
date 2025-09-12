@@ -21,7 +21,7 @@ function UnwaveringSoul_PrivateServer(){
  location.href= URL.UsPs;
 }
 
-function Rivals_Video{
+function Rivals_Video(){
  location.href= URL.Rivals_Video;
 }
 
