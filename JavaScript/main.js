@@ -9,7 +9,6 @@ const URL = {
  LINE: "https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
 };
 
-//Shareページなのか確認
 function HomeLink(){
  location.href= URL.Home;
 }
