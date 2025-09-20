@@ -12,6 +12,6 @@ window.onload = function(){
   document.getElementById("Friend-2v2_1").src = VideoURL.Rivals_1;
    document.getElementById("vsBlue_fool").src = VideoURL.Rivals_2;
     document.getElementById("Kill-Clip_1").src = VideoURL.Rivals_3;
-      document.getElementById("Ranked_1").src = VideoURL.Rivals4;
+      document.getElementById("Ranked_1").src = VideoURL.Rivals_4;
  };
 };
