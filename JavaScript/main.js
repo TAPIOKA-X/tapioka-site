@@ -1,28 +1,28 @@
 //コメント書くの一番疲れたｗ
 const URL = {
- Home: "https://tapioka-site.f5.si",
- Menu: "https://tapioka-site.f5.si/Menu.html",
- UsPs: "https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html",
- Rivals_Video: "https://tapioka-site.f5.si/Blog/Rivals/Rivals-Video.html",
- YouTuber: "https://tapioka-site.f5.si/Blog/YouTube/YouTuber.html",
- RobloxGroup: "https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about",
- LINE: "https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+Home:"https://tapioka-site.f5.si",
+Menu:"https://tapioka-site.f5.si/Menu.html",
+UsPs:"https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html",
+Rivals_Video:"https://tapioka-site.f5.si/Blog/Rivals/Rivals-Video.html",
+YouTuber:"https://tapioka-site.f5.si/Blog/YouTube/YouTuber.html",
+RobloxGroup:"https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about",
+LINE:"https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
 };
 //リダイレクト関数
 function HomeLink(){
- location.href= URL.Home;
+ location.href=URL.Home;
 }
 
 function MenuLink(){
- location.href= URL.Menu;
+ location.href=URL.Menu;
 }
 
 function UnwaveringSoul_PrivateServer(){
- location.href= URL.UsPs;
+ location.href=URL.UsPs;
 }
 
 function Rivals_Video(){
- location.href= URL.Rivals_Video;
+ location.href=URL.Rivals_Video;
 }
 
 function LINE(){
@@ -35,7 +35,7 @@ function RobloxGroup(){
 }
 
 function YouTuber(){
- location.href= URL.YouTuber;
+ location.href=URL.YouTuber;
 }
 //その他の関数
 function PScodeCopy(){
