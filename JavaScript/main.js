@@ -5,6 +5,7 @@ Menu:"https://tapioka-site.f5.si/Menu.html",
 UsPs:"https://tapioka-site.f5.si/Blog/UnwaveringSoul/UnwaveringSoul-PS.html",
 Rivals_Video:"https://tapioka-site.f5.si/Blog/Rivals/Rivals-Video.html",
 YouTuber:"https://tapioka-site.f5.si/Blog/YouTube/YouTuber.html",
+YouTuber:"https://tapioka-site.f5.si/Blog/Tools/TS-Editor.html",
 RobloxGroup:"https://www.roblox.com/ja/communities/33917666/TAPIOKA#!/about",
 LINE:"https://line.me/ti/g2/AgWjjh03PWGRbjgCPIfBie0e4-JIw4RES4T9Fg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
 };
@@ -36,6 +37,10 @@ function RobloxGroup(){
 
 function YouTuber(){
  location.href=URL.YouTuber;
+}
+
+function TS_Editor(){
+ location.href=URL.TS_Editor;
 }
 //その他の関数
 function PScodeCopy(){
