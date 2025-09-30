@@ -70,6 +70,13 @@ img{
  aspect-ratio: 16 / 9;
 }
 
+textarea{
+ border-radius:9px;
+ border: solid black 4px;
+ font-size: 18px;
+ font-weight: 900;
+}
+
 input[type="text"]{
  border-radius: 12px;
  font-size: 22px;
