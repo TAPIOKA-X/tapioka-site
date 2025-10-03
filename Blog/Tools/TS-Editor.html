@@ -1,41 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="preconnect"href="https://fonts.googleapis.com">
-<link rel="preconnect"href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"rel="stylesheet">
-<link rel="stylesheet"href= "../../css/style.css">
-<link rel="icon"href="../../img/icon/icon.webp">
-<meta charset="Shift_JIS">
-<meta name="viewport" content="width=device-width">
-<meta property="og:title"content="TAPIのホームページ">
-<meta property="og:site_name"content="TAPI-HomePage">
-<meta property="og:description"content="RobloxプレイヤーのTP_TAPIOKAが運営しているWebサイトです。ぜひ見てってください！">
-<meta property="og:url"content="https://tapioka-site.f5.si/">
-<meta property="og:image"content= "../../img/icon/TWR-Card.png">
+<meta name="viewport"content="width=device-width">
+<link rel="icon"href="https://tapioka-site.f5.si/img/icon/icon.webp">
+<style>
+body{
+text-align:center;
+background-color:black;
+color:green;
+font-weight: 900;
+}
+h1{
+border:solid silver 2px;
+border-radius:7px;
+font-size:45px;
+}
+h2{
+border:solid silver 2px;
+border-radius:7px;
+color:darkgreen;
+}
+button{
+background:linear-gradient(green,yellowgreen,green);
+border-radius:5px;
+border:solid silver 3px;
+padding:3px;
+color:white;
+font-size:17px;
+font-weight: 700;
+}
+button:hover{
+opacity:0.45;
+}
+textarea{
+border-radius: 9px;
+border:solid darkgreen;
+background-color:black;
+color:lime;
+padding:8px;
+font-size: 18px;
+font-weight: 900;
+}
+</style>
 <title>TS Editor</title>
 </head>
 
 <body>
-<a href="//dl.tool.tapioka-site.f5.si/TS-Editor.zip">> TS Editor (Offline) -- Download</a><br>
-<h1 class="BackGround-Black">TS Editor</h1>
-<h2 class="Border">TAPIOKA / Sakai</h2>
-<a id="Download_a-tag"download >
-<button onclick="dl()">Download File (.html)</button><br>
-</a>
+<h1>TS Editor / Offline</h1>
+<p>TAPIOKA - Sakai</p>
 <br>
-<textarea id="Data"rows="20"cols="100"></textarea><br>
+<a id="aDL"download><button onclick="FileDL()">> File Download</button></a><br><br>
+<textarea id="Txt" rows="20" cols="70"></textarea>
+
 <script>
-const GetIds = {
-Data: document.getElementById("Data"),
-aTag: document.getElementById("Download_a-tag")
+const Ids = {
+ aDL : document.getElementById("aDL"),
+ Txt : document.getElementById("Txt")
 };
-function dl() {
-let blob = new Blob([GetIds.Data.value], { type: "text/html" });
-let blobUrl = URL.createObjectURL(blob);
-GetIds.aTag.href=blobUrl;
+
+function FileDL(){
+ const blob = new Blob([Ids.Txt.value],{type:"text/html"});
+ Ids.aDL.href = URL.createObjectURL(blob);
+ Ids.aDL.download = "TS-Editor_Web.html";
 }
 </script>
 </body>
-
 </html>
