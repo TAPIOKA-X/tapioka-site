@@ -140,6 +140,9 @@ iframe{
  border-radius: 10px;
 }
 
+hr{
+ color: black;
+}
 .iframe-video{
  width: 100%;
  max-width: 525px;
