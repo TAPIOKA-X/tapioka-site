@@ -7,9 +7,14 @@ body{
   font-style: normal;
 }
 
-.Left{
- text-align: left;
+article{
  margin:5px;
+ width:100%
+}
+
+.MenuBar{
+ display: flex;
+ margin-left:5px;
 }
 
 button{
