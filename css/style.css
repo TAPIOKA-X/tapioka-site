@@ -107,6 +107,17 @@ a:hover{
  font-weight: 900;
 }
 
+.aTag_2{
+ text-decoration: none;
+ color: black;
+ font-weight: 900;
+}
+
+.aTag_2:hover{
+ color: darkred;
+ font-weight: 900;
+}
+
 b{
  font-weight: 900;
 }
