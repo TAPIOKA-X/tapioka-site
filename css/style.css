@@ -2,23 +2,27 @@ body{
  text-align: center;
  background-color: silver;
  color: black;
- font-family: "DotGothic16", sans-serif;
- font-weight: 500;
- font-style: normal;
- color: black;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Left{
+ text-align: center;
+ margin:5px;
 }
 
 button{
  background: linear-gradient(gray,darkgray,black);
  border: solid black;
  border-radius: 10px;
- font-family: "DotGothic16", sans-serif;
- font-weight: 900;
- font-style: normal;
- font-size: 16px;
  color: white;
  padding: 8px;
  animation: Border-Rainbow 8s infinite;
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16px;
 }
 
 button:hover{
