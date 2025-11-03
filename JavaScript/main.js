@@ -9,11 +9,11 @@ let AdsURL = {
  const h = window.innerHeight;
   let Ads = document.getElementsByClassName("Ads");
 if(w > 467 && h > 59){
- Ads.src = AdsURL.PC;
+ Ads[0].src = AdsURL.PC;
 }else if(w < 319 && h < 49){
- Ads.src = AdsURL.Phone;
+ Ads[0].src = AdsURL.Phone;
 }else{
- Ads.src = AdsURL.PC;
+ Ads[0].src = AdsURL.PC;
 }
 }
 },100);
