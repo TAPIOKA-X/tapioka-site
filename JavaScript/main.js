@@ -1,3 +1,4 @@
+setTimeout(() => {
 function DeviceType(){
 let AdsURL = {
  Phone : "https://adm.shinobi.jp/s/30676a41c8f9c49d8f43aaba667976c5",
@@ -14,8 +15,7 @@ if(w > 467 && h > 59){
  Ads.src = AdsURL.PC;
 }
 }
-
-window.onload = DeviceType;
+},100);
 
 function PScodeCopy(){ //ゆるたまのプラサバのやつ
  let PScode = document.getElementById("US-PS").textContent;
