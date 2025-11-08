@@ -123,6 +123,7 @@ a{
 }
 
 a:hover{
+ text-decoration: underline;
  color: darkred;
  font-weight: 900;
 }
