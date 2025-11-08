@@ -5,6 +5,6 @@ window.onload = function(){
  PScodeElement.textContent = PScode;
 }
 function PScodeCopy(){ //ゆるたまのプラサバのやつ
- navigator.clipboard.writeText(PScode;
+ navigator.clipboard.writeText(PScode);
  alert(`プライベートサーバーコード「${PScode}」をコピーできました。`);
 }
