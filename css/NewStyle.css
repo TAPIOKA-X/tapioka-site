@@ -162,4 +162,20 @@ a:hover{
 .left{
     text-align: left;
 }
+.HoverImg a{
+ position: relative;
+}
+.HoverImg a span{
+    display: none;
+    position: absolute;
+    z-index: 99;
+}
+.HoverImg a:hover span{
+    display: block;
+}
+.HoverImg a:hover span img{
+    margin-top: 4px;
+    border: solid white 1px;
+    border-radius: 8px;
+}
 }
