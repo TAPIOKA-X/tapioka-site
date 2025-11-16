@@ -1,5 +1,5 @@
  let PScodeElement = document.getElementById("US-PS");
- const PScode = "z39w9a5";
+ const PScode = "aAX1v9r";
 
 window.onload = function(){
  PScodeElement.textContent = PScode;
