@@ -22,11 +22,12 @@
     </div>
 </div>
 <h1>揺るぎない魂 プライベートサーバー</h1>
- <p>揺るぎない魂のプライベートサーバーのアクセスコードは「<b id="PS-Code">aAX1v9r</b>」です&emsp;<button onclick="Copy()" class="Padding_2px">コピーする</button></p>
+ <p>揺るぎない魂のプライベートサーバーのアクセスコードは「<b id="PS-Code">aAX1v9r</b>」です<br>
+    <button onclick="Copy()" class="Padding_2px">> コピーする <</button></p>
 <script>
 function Copy() {
     navigator.clipboard.writeText(document.getElementById("PS-Code").textContent);
-     alert("コピー完了しました");
+     alert(`「${document.getElementById('PS-Code').textContent}」をコピーしました`);
 }
 </script>
 </body>
